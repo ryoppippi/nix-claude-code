@@ -42,8 +42,8 @@
       );
 
       overlays.default = _final: prev: {
-        claude-code = self.packages.${prev.system}.claude;
-        claude-code-minimal = self.packages.${prev.system}.claude-minimal;
+        claude-code = self.packages.${prev.stdenv.hostPlatform.system}.claude;
+        claude-code-minimal = self.packages.${prev.stdenv.hostPlatform.system}.claude-minimal;
       };
     };
 }
