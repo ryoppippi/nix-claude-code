@@ -40,7 +40,7 @@
         }:
         let
           treefmtEval = treefmt-nix.lib.evalModule pkgs {
-            projectRootFile = "flake.nix";
+            projectRootFile = ".git/config";
             programs = {
               nixfmt.enable = true;
               deadnix.enable = true;

@@ -23,9 +23,7 @@
       versionNames = builtins.map (f: nixpkgs.lib.removeSuffix ".json" f) (
         builtins.filter (f: nixpkgs.lib.hasSuffix ".json" f) (builtins.attrNames versionFiles)
       );
-      latestVersion = builtins.head (
-        builtins.sort (a: b: builtins.compareVersions a b > 0) versionNames
-      );
+      latestVersion = builtins.head (builtins.sort (a: b: builtins.compareVersions a b > 0) versionNames);
     in
     {
       packages = forAllSystems (
