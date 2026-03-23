@@ -4,6 +4,16 @@ A Nix flake overlay that provides pre-built Claude Code CLI binaries from offici
 
 This overlay downloads binaries directly from Anthropic's distribution servers.
 
+## Getting Started
+
+```bash
+# Run the latest version
+nix run github:ryoppippi/claude-code-overlay
+
+# Run a specific version
+nix run 'github:ryoppippi/claude-code-overlay#"2.1.81"'
+```
+
 ## Features
 
 - ✅ Automatic updates via GitHub Actions (hourly checks)
