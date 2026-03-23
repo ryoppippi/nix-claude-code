@@ -1,21 +1,21 @@
 {
-  "version": "2.0.43",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.43/linux-x64/claude",
-      "hash": "sha256-Kg8qru5wJjHKdqSjbXIWItK8WmL2wIlF5M9/5V2uo+o="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.43/linux-arm64/claude",
-      "hash": "sha256-KE6/abK6rpSSUmWLigL7oTIfbJcXxzNa+1yLsHfq+EY="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.43/darwin-x64/claude",
-      "hash": "sha256-Kp17VG/ZLKAGfZuO8dhJIdDIU87F7ltU8YiFpXyYom4="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.43/darwin-arm64/claude",
-      "hash": "sha256-7N99pa+Ne063PhsAi7N/6Mnmc6Vsj/1Llav2IYT19rA="
-    }
-  }
+	"version": "2.0.43",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.43/linux-x64/claude",
+			"hash": "sha256-Kg8qru5wJjHKdqSjbXIWItK8WmL2wIlF5M9/5V2uo+o="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.43/linux-arm64/claude",
+			"hash": "sha256-KE6/abK6rpSSUmWLigL7oTIfbJcXxzNa+1yLsHfq+EY="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.43/darwin-x64/claude",
+			"hash": "sha256-Kp17VG/ZLKAGfZuO8dhJIdDIU87F7ltU8YiFpXyYom4="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.43/darwin-arm64/claude",
+			"hash": "sha256-7N99pa+Ne063PhsAi7N/6Mnmc6Vsj/1Llav2IYT19rA="
+		}
+	}
 }

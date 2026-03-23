@@ -1,21 +1,21 @@
 {
-  "version": "2.0.54",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.54/linux-x64/claude",
-      "hash": "sha256-V0Gp40582JBiCFrOqsvoxpSXzrzFVS57jna8bjRauYI="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.54/linux-arm64/claude",
-      "hash": "sha256-Rx+iUk3+k4NqRsVg6cZCIO1d4AoN9KlSFYJoE+h42Ng="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.54/darwin-x64/claude",
-      "hash": "sha256-lRaE23o786zjO0SXX9AKmxRHMm39r4SQp9+2QaAQ1aY="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.54/darwin-arm64/claude",
-      "hash": "sha256-/X5mn786frVbEgUlnMTkFwOKVlIZ55xnoj8VlL2NhxY="
-    }
-  }
+	"version": "2.0.54",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.54/linux-x64/claude",
+			"hash": "sha256-V0Gp40582JBiCFrOqsvoxpSXzrzFVS57jna8bjRauYI="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.54/linux-arm64/claude",
+			"hash": "sha256-Rx+iUk3+k4NqRsVg6cZCIO1d4AoN9KlSFYJoE+h42Ng="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.54/darwin-x64/claude",
+			"hash": "sha256-lRaE23o786zjO0SXX9AKmxRHMm39r4SQp9+2QaAQ1aY="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.54/darwin-arm64/claude",
+			"hash": "sha256-/X5mn786frVbEgUlnMTkFwOKVlIZ55xnoj8VlL2NhxY="
+		}
+	}
 }

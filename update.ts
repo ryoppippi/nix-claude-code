@@ -148,5 +148,5 @@ console.log(`Updated claude to version ${latestVersion}`);
 
 // Format with oxfmt
 console.log("Formatting with oxfmt...");
-await $`oxfmt versions/*.json`.quiet();
+await $`oxfmt --config ${join(import.meta.dir, ".oxfmtrc.jsonc")} versions/*.json`.quiet();
 console.log("Done!");

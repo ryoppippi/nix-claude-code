@@ -1,21 +1,21 @@
 {
-  "version": "2.0.70",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.70/linux-x64/claude",
-      "hash": "sha256-N31cBYY69JodjLXBXvAj4eNvXivJ/gnA8KmzQ3qKS8Q="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.70/linux-arm64/claude",
-      "hash": "sha256-uemdKwGvW8gCrax2H71z1U3XzFlqLZTBRzAFv1bfh3M="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.70/darwin-x64/claude",
-      "hash": "sha256-Nj1dyIkgwSdQHxRuK4QoAZ9kUTjOMvYbfcCtx8n70Z0="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.70/darwin-arm64/claude",
-      "hash": "sha256-U9tJylNxp9lyJEAmItzKw/4W1E5eJK/bczGnT4RWPO4="
-    }
-  }
+	"version": "2.0.70",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.70/linux-x64/claude",
+			"hash": "sha256-N31cBYY69JodjLXBXvAj4eNvXivJ/gnA8KmzQ3qKS8Q="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.70/linux-arm64/claude",
+			"hash": "sha256-uemdKwGvW8gCrax2H71z1U3XzFlqLZTBRzAFv1bfh3M="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.70/darwin-x64/claude",
+			"hash": "sha256-Nj1dyIkgwSdQHxRuK4QoAZ9kUTjOMvYbfcCtx8n70Z0="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.70/darwin-arm64/claude",
+			"hash": "sha256-U9tJylNxp9lyJEAmItzKw/4W1E5eJK/bczGnT4RWPO4="
+		}
+	}
 }

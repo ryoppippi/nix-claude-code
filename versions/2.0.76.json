@@ -1,21 +1,21 @@
 {
-  "version": "2.0.76",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.76/linux-x64/claude",
-      "hash": "sha256-Xc20gPkboN8LyL1q/xSNPf04g/CJnutblCeosKvnpoc="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.76/linux-arm64/claude",
-      "hash": "sha256-9kqZTI5b+4TXJCzrvsddaRnbLuRtULj8eojVBm2xk/k="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.76/darwin-x64/claude",
-      "hash": "sha256-nZRYLwr10iAfHJB78k/40hYQS4l+4LJHlabAgfQOCNc="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.76/darwin-arm64/claude",
-      "hash": "sha256-t29tTQkjPmcpWJewoe0uItevpAZDFSnYsbUytjuMvL0="
-    }
-  }
+	"version": "2.0.76",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.76/linux-x64/claude",
+			"hash": "sha256-Xc20gPkboN8LyL1q/xSNPf04g/CJnutblCeosKvnpoc="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.76/linux-arm64/claude",
+			"hash": "sha256-9kqZTI5b+4TXJCzrvsddaRnbLuRtULj8eojVBm2xk/k="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.76/darwin-x64/claude",
+			"hash": "sha256-nZRYLwr10iAfHJB78k/40hYQS4l+4LJHlabAgfQOCNc="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.76/darwin-arm64/claude",
+			"hash": "sha256-t29tTQkjPmcpWJewoe0uItevpAZDFSnYsbUytjuMvL0="
+		}
+	}
 }

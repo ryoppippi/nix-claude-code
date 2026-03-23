@@ -1,21 +1,21 @@
 {
-  "version": "2.0.26",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.26/linux-x64/claude",
-      "hash": "sha256-BEtbUm+LqiEsatwJG36SgYHsSX8IRJqY7xwJc0J4BaY="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.26/linux-arm64/claude",
-      "hash": "sha256-h5AIznE58xdWZCJ0Tx53kA/YWFMQZgel9S1R0k+7RSU="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.26/darwin-x64/claude",
-      "hash": "sha256-vANyaUFbtVcPDcm5es/SXqJDoJRsyL0RxtbWOqNKf5I="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.26/darwin-arm64/claude",
-      "hash": "sha256-IY4jegrS2sb81LYiQySXGTyBtO7JF79NOFU2/U8XzeI="
-    }
-  }
+	"version": "2.0.26",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.26/linux-x64/claude",
+			"hash": "sha256-BEtbUm+LqiEsatwJG36SgYHsSX8IRJqY7xwJc0J4BaY="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.26/linux-arm64/claude",
+			"hash": "sha256-h5AIznE58xdWZCJ0Tx53kA/YWFMQZgel9S1R0k+7RSU="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.26/darwin-x64/claude",
+			"hash": "sha256-vANyaUFbtVcPDcm5es/SXqJDoJRsyL0RxtbWOqNKf5I="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.26/darwin-arm64/claude",
+			"hash": "sha256-IY4jegrS2sb81LYiQySXGTyBtO7JF79NOFU2/U8XzeI="
+		}
+	}
 }

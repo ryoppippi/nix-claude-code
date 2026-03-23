@@ -1,21 +1,21 @@
 {
-  "version": "2.0.24",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.24/linux-x64/claude",
-      "hash": "sha256-Fm9Eu80ufUdYeOgZEO1B5gSM+Ax7Cm4Tyjf5yo93Tgg="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.24/linux-arm64/claude",
-      "hash": "sha256-y+stqrWzTDSV1k73jb7FGzKVfNdfxpkpSHnVxDtu42Y="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.24/darwin-x64/claude",
-      "hash": "sha256-tgb5HJcFMwjtEzxWP25y6G3bQzq+FCeRBQ+cVCVObKo="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.24/darwin-arm64/claude",
-      "hash": "sha256-86Bu4YEF3g9HWn7LAB7oX3ooBCfv/PnjDfCgrG6tNIg="
-    }
-  }
+	"version": "2.0.24",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.24/linux-x64/claude",
+			"hash": "sha256-Fm9Eu80ufUdYeOgZEO1B5gSM+Ax7Cm4Tyjf5yo93Tgg="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.24/linux-arm64/claude",
+			"hash": "sha256-y+stqrWzTDSV1k73jb7FGzKVfNdfxpkpSHnVxDtu42Y="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.24/darwin-x64/claude",
+			"hash": "sha256-tgb5HJcFMwjtEzxWP25y6G3bQzq+FCeRBQ+cVCVObKo="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.24/darwin-arm64/claude",
+			"hash": "sha256-86Bu4YEF3g9HWn7LAB7oX3ooBCfv/PnjDfCgrG6tNIg="
+		}
+	}
 }

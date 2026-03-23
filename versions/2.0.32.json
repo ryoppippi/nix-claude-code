@@ -1,21 +1,21 @@
 {
-  "version": "2.0.32",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.32/linux-x64/claude",
-      "hash": "sha256-Op6Q9/aoIPFYoug5d+kWymzmCCrYD/A4uhKc+OUZY3o="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.32/linux-arm64/claude",
-      "hash": "sha256-hz7cT02vUiuIMKuHHxhC/eoxkSqzwaRQ2IxhnYCw07s="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.32/darwin-x64/claude",
-      "hash": "sha256-1gMlMzTF4O3epVm8NafB37t0oxBqbuGTYNn5YzLUj3E="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.32/darwin-arm64/claude",
-      "hash": "sha256-+JFvxD0r/JZXDQ8Ypm4Vm1T0HKvmCHDB/InTEDhv1aI="
-    }
-  }
+	"version": "2.0.32",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.32/linux-x64/claude",
+			"hash": "sha256-Op6Q9/aoIPFYoug5d+kWymzmCCrYD/A4uhKc+OUZY3o="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.32/linux-arm64/claude",
+			"hash": "sha256-hz7cT02vUiuIMKuHHxhC/eoxkSqzwaRQ2IxhnYCw07s="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.32/darwin-x64/claude",
+			"hash": "sha256-1gMlMzTF4O3epVm8NafB37t0oxBqbuGTYNn5YzLUj3E="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.32/darwin-arm64/claude",
+			"hash": "sha256-+JFvxD0r/JZXDQ8Ypm4Vm1T0HKvmCHDB/InTEDhv1aI="
+		}
+	}
 }

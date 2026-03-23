@@ -1,21 +1,21 @@
 {
-  "version": "2.1.40",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.40/linux-x64/claude",
-      "hash": "sha256-j88MSNi1Vo6/YEoVdz7j8dkmBWGOr+KmazMLqWRmvN0="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.40/linux-arm64/claude",
-      "hash": "sha256-ZRdZ313El3MVd+ts/1ijVv1mw7r8KZnWO+2stKjTHAA="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.40/darwin-x64/claude",
-      "hash": "sha256-OLU3OKF2ptfLHhScTux1MKZNWAa62MPaNT1saA40sQA="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.40/darwin-arm64/claude",
-      "hash": "sha256-OM0Mxv93r13ij4uEoT0/aZXdMnBKtezls9bVZ6Pa4z0="
-    }
-  }
+	"version": "2.1.40",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.40/linux-x64/claude",
+			"hash": "sha256-j88MSNi1Vo6/YEoVdz7j8dkmBWGOr+KmazMLqWRmvN0="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.40/linux-arm64/claude",
+			"hash": "sha256-ZRdZ313El3MVd+ts/1ijVv1mw7r8KZnWO+2stKjTHAA="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.40/darwin-x64/claude",
+			"hash": "sha256-OLU3OKF2ptfLHhScTux1MKZNWAa62MPaNT1saA40sQA="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.40/darwin-arm64/claude",
+			"hash": "sha256-OM0Mxv93r13ij4uEoT0/aZXdMnBKtezls9bVZ6Pa4z0="
+		}
+	}
 }

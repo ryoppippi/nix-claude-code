@@ -1,21 +1,21 @@
 {
-  "version": "2.0.69",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.69/linux-x64/claude",
-      "hash": "sha256-3ZhXsOLJwKepZvuakq8cNJThLPCKrdxEETLEGniQJRA="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.69/linux-arm64/claude",
-      "hash": "sha256-rhTZddyjj7hOaHLfYizx+fK37dJHK+EdThEDpjM+6iQ="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.69/darwin-x64/claude",
-      "hash": "sha256-xp9YTFbrXCgEaNbrGUi0DyGAkGSz9rzRvyDFvBQtpBE="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.69/darwin-arm64/claude",
-      "hash": "sha256-CMNaEvDykRj0IkChm1g2zTnPPbBUxXzVQKni1DB3u04="
-    }
-  }
+	"version": "2.0.69",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.69/linux-x64/claude",
+			"hash": "sha256-3ZhXsOLJwKepZvuakq8cNJThLPCKrdxEETLEGniQJRA="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.69/linux-arm64/claude",
+			"hash": "sha256-rhTZddyjj7hOaHLfYizx+fK37dJHK+EdThEDpjM+6iQ="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.69/darwin-x64/claude",
+			"hash": "sha256-xp9YTFbrXCgEaNbrGUi0DyGAkGSz9rzRvyDFvBQtpBE="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.69/darwin-arm64/claude",
+			"hash": "sha256-CMNaEvDykRj0IkChm1g2zTnPPbBUxXzVQKni1DB3u04="
+		}
+	}
 }

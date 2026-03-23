@@ -1,21 +1,21 @@
 {
-  "version": "2.0.33",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.33/linux-x64/claude",
-      "hash": "sha256-nuwGTvP5LbrFc21PUjhhhrJfTcNK76DM88132CAjsDo="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.33/linux-arm64/claude",
-      "hash": "sha256-J+J1IzyDtTflyy9lMHL63HASTv6aNF+bZDfvMZZsYbs="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.33/darwin-x64/claude",
-      "hash": "sha256-pzqUeYm5m0M1ue0mIBAYhRvguT9wpcE2O0yfiK16WDA="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.33/darwin-arm64/claude",
-      "hash": "sha256-5GJ3ktDCBuX9abS71M9MVIu2vXE1V8TBqrVTJL3xKO0="
-    }
-  }
+	"version": "2.0.33",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.33/linux-x64/claude",
+			"hash": "sha256-nuwGTvP5LbrFc21PUjhhhrJfTcNK76DM88132CAjsDo="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.33/linux-arm64/claude",
+			"hash": "sha256-J+J1IzyDtTflyy9lMHL63HASTv6aNF+bZDfvMZZsYbs="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.33/darwin-x64/claude",
+			"hash": "sha256-pzqUeYm5m0M1ue0mIBAYhRvguT9wpcE2O0yfiK16WDA="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.33/darwin-arm64/claude",
+			"hash": "sha256-5GJ3ktDCBuX9abS71M9MVIu2vXE1V8TBqrVTJL3xKO0="
+		}
+	}
 }

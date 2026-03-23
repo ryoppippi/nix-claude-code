@@ -1,21 +1,21 @@
 {
-  "version": "2.0.15",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.15/linux-x64/claude",
-      "hash": "sha256-e3SeH4ytPWgnvMBESGFSXeIMLWvyZHOmdaZDJMYb7XI="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.15/linux-arm64/claude",
-      "hash": "sha256-FVw+cgT7fcsjlhGAxM7cJ3QF4r/8vIQDO61b7TJ1UqE="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.15/darwin-x64/claude",
-      "hash": "sha256-BxiHzr+xOjfQSU8YJI54mLT3yIV6Cc23BvINwonRtEA="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.15/darwin-arm64/claude",
-      "hash": "sha256-W7JvBkCb9OfRVlEX8dGXchqHdtkAqXEbiow+gHoftfE="
-    }
-  }
+	"version": "2.0.15",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.15/linux-x64/claude",
+			"hash": "sha256-e3SeH4ytPWgnvMBESGFSXeIMLWvyZHOmdaZDJMYb7XI="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.15/linux-arm64/claude",
+			"hash": "sha256-FVw+cgT7fcsjlhGAxM7cJ3QF4r/8vIQDO61b7TJ1UqE="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.15/darwin-x64/claude",
+			"hash": "sha256-BxiHzr+xOjfQSU8YJI54mLT3yIV6Cc23BvINwonRtEA="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.15/darwin-arm64/claude",
+			"hash": "sha256-W7JvBkCb9OfRVlEX8dGXchqHdtkAqXEbiow+gHoftfE="
+		}
+	}
 }

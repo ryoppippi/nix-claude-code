@@ -1,21 +1,21 @@
 {
-  "version": "2.0.14",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.14/linux-x64/claude",
-      "hash": "sha256-Ju+t+VQ6kSpnQhf1RrQ8sZBBzugfkkg/zX2ZQ5mTgZQ="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.14/linux-arm64/claude",
-      "hash": "sha256-Xfp1mLPw/ltpoLEsH+qKQ16OFeHz5zP7YCLb6W0x410="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.14/darwin-x64/claude",
-      "hash": "sha256-yWD2dbgJKWr1eHwP4RdGr2WNsKGjv9lfLvDieOa8jO4="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.14/darwin-arm64/claude",
-      "hash": "sha256-TMDKL69rCvBHH2MCjTdmGyew5GPFiJMYWbNgGGQfRMs="
-    }
-  }
+	"version": "2.0.14",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.14/linux-x64/claude",
+			"hash": "sha256-Ju+t+VQ6kSpnQhf1RrQ8sZBBzugfkkg/zX2ZQ5mTgZQ="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.14/linux-arm64/claude",
+			"hash": "sha256-Xfp1mLPw/ltpoLEsH+qKQ16OFeHz5zP7YCLb6W0x410="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.14/darwin-x64/claude",
+			"hash": "sha256-yWD2dbgJKWr1eHwP4RdGr2WNsKGjv9lfLvDieOa8jO4="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.14/darwin-arm64/claude",
+			"hash": "sha256-TMDKL69rCvBHH2MCjTdmGyew5GPFiJMYWbNgGGQfRMs="
+		}
+	}
 }

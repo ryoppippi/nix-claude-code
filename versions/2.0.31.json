@@ -1,21 +1,21 @@
 {
-  "version": "2.0.31",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.31/linux-x64/claude",
-      "hash": "sha256-gOKb3O6vILYLKioEr8sLJ6KSx9YPwj7gUleJj0fA7T8="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.31/linux-arm64/claude",
-      "hash": "sha256-ktVBVENhrZo6v1BvUnrPMytooQuhaFseO2kOVyJLLBo="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.31/darwin-x64/claude",
-      "hash": "sha256-oQWiiFoMFhmM7tzqkkd+Xi57eemg7Ga6f+s0H83ubYM="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.31/darwin-arm64/claude",
-      "hash": "sha256-wq4BpRKW5bIhII9pDj0D4nJpiYHYoHIh0LeLJzSE8Jk="
-    }
-  }
+	"version": "2.0.31",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.31/linux-x64/claude",
+			"hash": "sha256-gOKb3O6vILYLKioEr8sLJ6KSx9YPwj7gUleJj0fA7T8="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.31/linux-arm64/claude",
+			"hash": "sha256-ktVBVENhrZo6v1BvUnrPMytooQuhaFseO2kOVyJLLBo="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.31/darwin-x64/claude",
+			"hash": "sha256-oQWiiFoMFhmM7tzqkkd+Xi57eemg7Ga6f+s0H83ubYM="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.31/darwin-arm64/claude",
+			"hash": "sha256-wq4BpRKW5bIhII9pDj0D4nJpiYHYoHIh0LeLJzSE8Jk="
+		}
+	}
 }

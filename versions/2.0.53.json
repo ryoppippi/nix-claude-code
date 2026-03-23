@@ -1,21 +1,21 @@
 {
-  "version": "2.0.53",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.53/linux-x64/claude",
-      "hash": "sha256-nEzBniB/tr9+oUChWA1e0N0KSBr0cfI2FNWhQKSr8cY="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.53/linux-arm64/claude",
-      "hash": "sha256-pdQEQDTztjw4N5vC3UBnpN08jsSJZbqOZuNiN3SpO3I="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.53/darwin-x64/claude",
-      "hash": "sha256-on97daUVFGWGQEMqCv7IvhMGc+t9vsyaTXQlJ92F0po="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.53/darwin-arm64/claude",
-      "hash": "sha256-KMOtc6IPOuerI++iTUWpeRzL4HEoTxYi1OXiuJxKFbc="
-    }
-  }
+	"version": "2.0.53",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.53/linux-x64/claude",
+			"hash": "sha256-nEzBniB/tr9+oUChWA1e0N0KSBr0cfI2FNWhQKSr8cY="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.53/linux-arm64/claude",
+			"hash": "sha256-pdQEQDTztjw4N5vC3UBnpN08jsSJZbqOZuNiN3SpO3I="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.53/darwin-x64/claude",
+			"hash": "sha256-on97daUVFGWGQEMqCv7IvhMGc+t9vsyaTXQlJ92F0po="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.53/darwin-arm64/claude",
+			"hash": "sha256-KMOtc6IPOuerI++iTUWpeRzL4HEoTxYi1OXiuJxKFbc="
+		}
+	}
 }

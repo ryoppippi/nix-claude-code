@@ -1,21 +1,21 @@
 {
-  "version": "2.0.58",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/linux-x64/claude",
-      "hash": "sha256-ELfUwO8PjXKPFxV33ZWuEh5AURpW9gtIUz4/zOeS8dw="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/linux-arm64/claude",
-      "hash": "sha256-T74h8ARNxFG6AQan7HXHT5IPqO6plJbokpWPoaSb7Ck="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/darwin-x64/claude",
-      "hash": "sha256-aE/JOD4OIq0QKF+WjbDoskbYB6ZjLB5awk4hCb+Rt5o="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/darwin-arm64/claude",
-      "hash": "sha256-rv2NbJSiR3s8XZYJuwqxEDpgy6L/uu3js1UJqadqm00="
-    }
-  }
+	"version": "2.0.58",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/linux-x64/claude",
+			"hash": "sha256-ELfUwO8PjXKPFxV33ZWuEh5AURpW9gtIUz4/zOeS8dw="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/linux-arm64/claude",
+			"hash": "sha256-T74h8ARNxFG6AQan7HXHT5IPqO6plJbokpWPoaSb7Ck="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/darwin-x64/claude",
+			"hash": "sha256-aE/JOD4OIq0QKF+WjbDoskbYB6ZjLB5awk4hCb+Rt5o="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.58/darwin-arm64/claude",
+			"hash": "sha256-rv2NbJSiR3s8XZYJuwqxEDpgy6L/uu3js1UJqadqm00="
+		}
+	}
 }

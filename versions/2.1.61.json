@@ -1,21 +1,21 @@
 {
-  "version": "2.1.61",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.61/linux-x64/claude",
-      "hash": "sha256-scFZB7PuObLwtsxkJ2ciBtvJ5aaMVESNOw3EEXdusDE="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.61/linux-arm64/claude",
-      "hash": "sha256-yfHawFjG60Uw0SzLiSQTY+cw1EUqUyd+yudlJ8RcDF4="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.61/darwin-x64/claude",
-      "hash": "sha256-1EgWxjOGfUrIP7sk3O2jOvWHlp2a9B4igvtBDTiobfI="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.61/darwin-arm64/claude",
-      "hash": "sha256-P103BnRu/7L4dePbZmgmYuo7XXwZa1oPrY+zem/Gz9s="
-    }
-  }
+	"version": "2.1.61",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.61/linux-x64/claude",
+			"hash": "sha256-scFZB7PuObLwtsxkJ2ciBtvJ5aaMVESNOw3EEXdusDE="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.61/linux-arm64/claude",
+			"hash": "sha256-yfHawFjG60Uw0SzLiSQTY+cw1EUqUyd+yudlJ8RcDF4="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.61/darwin-x64/claude",
+			"hash": "sha256-1EgWxjOGfUrIP7sk3O2jOvWHlp2a9B4igvtBDTiobfI="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.61/darwin-arm64/claude",
+			"hash": "sha256-P103BnRu/7L4dePbZmgmYuo7XXwZa1oPrY+zem/Gz9s="
+		}
+	}
 }

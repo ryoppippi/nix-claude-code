@@ -1,21 +1,21 @@
 {
-  "version": "2.0.47",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.47/linux-x64/claude",
-      "hash": "sha256-o8IDGGs7CYaR75agUsLDzCBWYMRYAvLGTdD4v3MJly4="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.47/linux-arm64/claude",
-      "hash": "sha256-K/I/srpvZakzzX33mcAqMDhiRE22FYToQtSbabS2dls="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.47/darwin-x64/claude",
-      "hash": "sha256-7BGUKIfaYWSGSDzlORNTU5Nsq4nMbvIfrIjF2EgJ35I="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.47/darwin-arm64/claude",
-      "hash": "sha256-mQv4Bp67US5ooBsatkyMGmVu982yv9Jx4HEhGeRs+YA="
-    }
-  }
+	"version": "2.0.47",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.47/linux-x64/claude",
+			"hash": "sha256-o8IDGGs7CYaR75agUsLDzCBWYMRYAvLGTdD4v3MJly4="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.47/linux-arm64/claude",
+			"hash": "sha256-K/I/srpvZakzzX33mcAqMDhiRE22FYToQtSbabS2dls="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.47/darwin-x64/claude",
+			"hash": "sha256-7BGUKIfaYWSGSDzlORNTU5Nsq4nMbvIfrIjF2EgJ35I="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.47/darwin-arm64/claude",
+			"hash": "sha256-mQv4Bp67US5ooBsatkyMGmVu982yv9Jx4HEhGeRs+YA="
+		}
+	}
 }

@@ -1,21 +1,21 @@
 {
-  "version": "2.0.75",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.75/linux-x64/claude",
-      "hash": "sha256-YhYPh2ZoHYyTPpEzOY093mrQ3wgDiIGmbt25k7S2oz8="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.75/linux-arm64/claude",
-      "hash": "sha256-aB+9GoSy3og9yVREFpN2a0PqT6r7PnK4jJmjNkXNNQc="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.75/darwin-x64/claude",
-      "hash": "sha256-4nMTBT0yaKC8HgCA+MLvcVUyXwqV5ylxFj7vaYpx6Ck="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.75/darwin-arm64/claude",
-      "hash": "sha256-qW6xghjhEkhrfs69FVHZJ/+zEKtfsG0ujbJfsxNnU34="
-    }
-  }
+	"version": "2.0.75",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.75/linux-x64/claude",
+			"hash": "sha256-YhYPh2ZoHYyTPpEzOY093mrQ3wgDiIGmbt25k7S2oz8="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.75/linux-arm64/claude",
+			"hash": "sha256-aB+9GoSy3og9yVREFpN2a0PqT6r7PnK4jJmjNkXNNQc="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.75/darwin-x64/claude",
+			"hash": "sha256-4nMTBT0yaKC8HgCA+MLvcVUyXwqV5ylxFj7vaYpx6Ck="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.75/darwin-arm64/claude",
+			"hash": "sha256-qW6xghjhEkhrfs69FVHZJ/+zEKtfsG0ujbJfsxNnU34="
+		}
+	}
 }

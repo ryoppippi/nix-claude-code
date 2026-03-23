@@ -1,21 +1,21 @@
 {
-  "version": "2.1.64",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.64/linux-x64/claude",
-      "hash": "sha256-wx7xYXVCxEhCVLuxo5EqlZlO9S/rpIqzgqv04simV8o="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.64/linux-arm64/claude",
-      "hash": "sha256-uFH+hA9tu7esA6HW1j4OmeqB9QmEawp+678grEL2tiU="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.64/darwin-x64/claude",
-      "hash": "sha256-SLVYMqOSb/BAlSz6A5HUYFl0/5rMGJjZXaMoRi17R3s="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.64/darwin-arm64/claude",
-      "hash": "sha256-qk21ImWQfwc/0RsbIh1wxVaPMM4u2OlS9UaayXGjA48="
-    }
-  }
+	"version": "2.1.64",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.64/linux-x64/claude",
+			"hash": "sha256-wx7xYXVCxEhCVLuxo5EqlZlO9S/rpIqzgqv04simV8o="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.64/linux-arm64/claude",
+			"hash": "sha256-uFH+hA9tu7esA6HW1j4OmeqB9QmEawp+678grEL2tiU="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.64/darwin-x64/claude",
+			"hash": "sha256-SLVYMqOSb/BAlSz6A5HUYFl0/5rMGJjZXaMoRi17R3s="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.64/darwin-arm64/claude",
+			"hash": "sha256-qk21ImWQfwc/0RsbIh1wxVaPMM4u2OlS9UaayXGjA48="
+		}
+	}
 }

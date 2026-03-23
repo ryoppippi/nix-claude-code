@@ -1,21 +1,21 @@
 {
-  "version": "2.0.35",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.35/linux-x64/claude",
-      "hash": "sha256-iu4NFzARD5RbHgKBWNNKDTTlnd4V1RIAEw6S0GF5jjg="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.35/linux-arm64/claude",
-      "hash": "sha256-V08ioxVd7Oucj9+NfzI1CF25OaLMA80hveZgQo2t3ZM="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.35/darwin-x64/claude",
-      "hash": "sha256-SkUk+XrIQkl9yl1eSKR0+sbcCA9KtKW9MvWx+uvCQ9c="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.35/darwin-arm64/claude",
-      "hash": "sha256-TNGumksx3tOOCDpqt/S4TyFkQirDxu+NGEcin0iwuyk="
-    }
-  }
+	"version": "2.0.35",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.35/linux-x64/claude",
+			"hash": "sha256-iu4NFzARD5RbHgKBWNNKDTTlnd4V1RIAEw6S0GF5jjg="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.35/linux-arm64/claude",
+			"hash": "sha256-V08ioxVd7Oucj9+NfzI1CF25OaLMA80hveZgQo2t3ZM="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.35/darwin-x64/claude",
+			"hash": "sha256-SkUk+XrIQkl9yl1eSKR0+sbcCA9KtKW9MvWx+uvCQ9c="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.35/darwin-arm64/claude",
+			"hash": "sha256-TNGumksx3tOOCDpqt/S4TyFkQirDxu+NGEcin0iwuyk="
+		}
+	}
 }

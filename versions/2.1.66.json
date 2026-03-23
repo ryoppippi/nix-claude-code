@@ -1,21 +1,21 @@
 {
-  "version": "2.1.66",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.66/linux-x64/claude",
-      "hash": "sha256-I8J3BA9eUSUjL4aJ7SaYt6CaDNmyhjrbSSINJeqd7qQ="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.66/linux-arm64/claude",
-      "hash": "sha256-L8vSXDRMVu/mo9ssGfIldaiPJOOhKa0PH+WekAQJRSg="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.66/darwin-x64/claude",
-      "hash": "sha256-vwcsJPgV8YJGt85JLEsKilriwBicIKqVDWAtb9elESY="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.66/darwin-arm64/claude",
-      "hash": "sha256-etpoSFFmNuIp7KC1BhWFdBwCtG1rKF8SHBGljExIdbg="
-    }
-  }
+	"version": "2.1.66",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.66/linux-x64/claude",
+			"hash": "sha256-I8J3BA9eUSUjL4aJ7SaYt6CaDNmyhjrbSSINJeqd7qQ="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.66/linux-arm64/claude",
+			"hash": "sha256-L8vSXDRMVu/mo9ssGfIldaiPJOOhKa0PH+WekAQJRSg="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.66/darwin-x64/claude",
+			"hash": "sha256-vwcsJPgV8YJGt85JLEsKilriwBicIKqVDWAtb9elESY="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.66/darwin-arm64/claude",
+			"hash": "sha256-etpoSFFmNuIp7KC1BhWFdBwCtG1rKF8SHBGljExIdbg="
+		}
+	}
 }

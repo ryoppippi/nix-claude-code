@@ -1,21 +1,21 @@
 {
-  "version": "2.1.55",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.55/linux-x64/claude",
-      "hash": "sha256-xLoA9lTlOc794Cf1NxNx9RnsE5SSWr/LCWYa9hOqdIk="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.55/linux-arm64/claude",
-      "hash": "sha256-R29+svmx0Exm5IyuZyKgZr19ft+rMk7YERFVLKLY2JA="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.55/darwin-x64/claude",
-      "hash": "sha256-6Gnvgu2Lq4g39A4G1xMTQKDiFR0sPesBWB7SiKuX3pk="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.55/darwin-arm64/claude",
-      "hash": "sha256-vuAnQwy98yR+VGIUXAdYQe5qFYFH87QQgdREty9oBA8="
-    }
-  }
+	"version": "2.1.55",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.55/linux-x64/claude",
+			"hash": "sha256-xLoA9lTlOc794Cf1NxNx9RnsE5SSWr/LCWYa9hOqdIk="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.55/linux-arm64/claude",
+			"hash": "sha256-R29+svmx0Exm5IyuZyKgZr19ft+rMk7YERFVLKLY2JA="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.55/darwin-x64/claude",
+			"hash": "sha256-6Gnvgu2Lq4g39A4G1xMTQKDiFR0sPesBWB7SiKuX3pk="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.55/darwin-arm64/claude",
+			"hash": "sha256-vuAnQwy98yR+VGIUXAdYQe5qFYFH87QQgdREty9oBA8="
+		}
+	}
 }

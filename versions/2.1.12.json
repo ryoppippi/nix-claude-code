@@ -1,21 +1,21 @@
 {
-  "version": "2.1.12",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.12/linux-x64/claude",
-      "hash": "sha256-P+l5IVSJ3BsxRj+t+V7S0tVHOplpRHu3pGQx9FeIR9Q="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.12/linux-arm64/claude",
-      "hash": "sha256-4hSx07Wv1M0t6RdzWQAdQaPrmMseNmX+l+3FkvWqEy8="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.12/darwin-x64/claude",
-      "hash": "sha256-Du5LRskXSUgL+Fb4jkmxWj6UT6qdNGZ5xfDA1/pvL1Q="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.12/darwin-arm64/claude",
-      "hash": "sha256-QL5ZUZqEvTXrERGqRvcqprNEOGbT9jNiUqGY/crvu+U="
-    }
-  }
+	"version": "2.1.12",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.12/linux-x64/claude",
+			"hash": "sha256-P+l5IVSJ3BsxRj+t+V7S0tVHOplpRHu3pGQx9FeIR9Q="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.12/linux-arm64/claude",
+			"hash": "sha256-4hSx07Wv1M0t6RdzWQAdQaPrmMseNmX+l+3FkvWqEy8="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.12/darwin-x64/claude",
+			"hash": "sha256-Du5LRskXSUgL+Fb4jkmxWj6UT6qdNGZ5xfDA1/pvL1Q="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.12/darwin-arm64/claude",
+			"hash": "sha256-QL5ZUZqEvTXrERGqRvcqprNEOGbT9jNiUqGY/crvu+U="
+		}
+	}
 }

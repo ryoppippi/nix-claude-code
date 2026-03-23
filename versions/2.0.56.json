@@ -1,21 +1,21 @@
 {
-  "version": "2.0.56",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.56/linux-x64/claude",
-      "hash": "sha256-39NYjfE9l2AhYbU+XHEr48vg6vHmOuMbUfrOA1Q6WBA="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.56/linux-arm64/claude",
-      "hash": "sha256-jryVsNops+qDCy3T17013SqzUYrC4YtOtBsPwsvQ0sE="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.56/darwin-x64/claude",
-      "hash": "sha256-8CblTrhMWzI4uCZj7MJDNN7vDs1kE/lyD2EStsTbnA8="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.56/darwin-arm64/claude",
-      "hash": "sha256-20ck7zUOP2j/15PtfwMPx20SQSTX+7RKrYkLqkhVAVI="
-    }
-  }
+	"version": "2.0.56",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.56/linux-x64/claude",
+			"hash": "sha256-39NYjfE9l2AhYbU+XHEr48vg6vHmOuMbUfrOA1Q6WBA="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.56/linux-arm64/claude",
+			"hash": "sha256-jryVsNops+qDCy3T17013SqzUYrC4YtOtBsPwsvQ0sE="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.56/darwin-x64/claude",
+			"hash": "sha256-8CblTrhMWzI4uCZj7MJDNN7vDs1kE/lyD2EStsTbnA8="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.56/darwin-arm64/claude",
+			"hash": "sha256-20ck7zUOP2j/15PtfwMPx20SQSTX+7RKrYkLqkhVAVI="
+		}
+	}
 }

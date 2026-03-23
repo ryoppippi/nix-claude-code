@@ -1,21 +1,21 @@
 {
-  "version": "2.1.62",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.62/linux-x64/claude",
-      "hash": "sha256-1vBybLjpS3owwkOWRSm6kTXmQsQNITTKCfX4RQcUcbQ="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.62/linux-arm64/claude",
-      "hash": "sha256-aWwvKiKiM3Xp1+4mrwr/QXzUo6jLcE8k5LqcdKTHjTc="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.62/darwin-x64/claude",
-      "hash": "sha256-Sp1hnN6TEB3TJ5IRzxBT25Qvl9ajI87BtXDVL0Px86k="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.62/darwin-arm64/claude",
-      "hash": "sha256-lPgTVhUZZ2qVE149NjHLx0oUiDIiryDe9tUEDRk81ec="
-    }
-  }
+	"version": "2.1.62",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.62/linux-x64/claude",
+			"hash": "sha256-1vBybLjpS3owwkOWRSm6kTXmQsQNITTKCfX4RQcUcbQ="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.62/linux-arm64/claude",
+			"hash": "sha256-aWwvKiKiM3Xp1+4mrwr/QXzUo6jLcE8k5LqcdKTHjTc="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.62/darwin-x64/claude",
+			"hash": "sha256-Sp1hnN6TEB3TJ5IRzxBT25Qvl9ajI87BtXDVL0Px86k="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.62/darwin-arm64/claude",
+			"hash": "sha256-lPgTVhUZZ2qVE149NjHLx0oUiDIiryDe9tUEDRk81ec="
+		}
+	}
 }

@@ -1,21 +1,21 @@
 {
-  "version": "2.1.21",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.21/linux-x64/claude",
-      "hash": "sha256-NfzM/O0uhmncSqzyu3b6uYFrzF/FZuZrWuQvTntEdLE="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.21/linux-arm64/claude",
-      "hash": "sha256-4EPtleTfQoKprbNOtR7hTVmlPy/u6xmISmtO3sy+fzo="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.21/darwin-x64/claude",
-      "hash": "sha256-GCTJoB4CZr7xwNqIBQPknbCII89+tqVP7yo4UCjCuwU="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.21/darwin-arm64/claude",
-      "hash": "sha256-6CZdhxnxMauPKGPmbOacyCnE9VOHriKG5F1KBrgCxv0="
-    }
-  }
+	"version": "2.1.21",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.21/linux-x64/claude",
+			"hash": "sha256-NfzM/O0uhmncSqzyu3b6uYFrzF/FZuZrWuQvTntEdLE="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.21/linux-arm64/claude",
+			"hash": "sha256-4EPtleTfQoKprbNOtR7hTVmlPy/u6xmISmtO3sy+fzo="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.21/darwin-x64/claude",
+			"hash": "sha256-GCTJoB4CZr7xwNqIBQPknbCII89+tqVP7yo4UCjCuwU="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.21/darwin-arm64/claude",
+			"hash": "sha256-6CZdhxnxMauPKGPmbOacyCnE9VOHriKG5F1KBrgCxv0="
+		}
+	}
 }

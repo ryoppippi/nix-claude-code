@@ -1,21 +1,21 @@
 {
-  "version": "2.0.41",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.41/linux-x64/claude",
-      "hash": "sha256-YRVsfDDHcwz/r2IcmB4nHNqr2mhZL5TQzbnSbpwL51Q="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.41/linux-arm64/claude",
-      "hash": "sha256-zqHFNUVNDWwQUZhe/T92ni2iL3p56cwmeqfStsXmoM8="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.41/darwin-x64/claude",
-      "hash": "sha256-CJNbhiiql3fcCrgeNurcAP+jIfohcIL+S2jAh5CdGkg="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.41/darwin-arm64/claude",
-      "hash": "sha256-jd1szp1pASv7o+s6PrWiOlSMgUjybiqt0kZ6aYBmvtU="
-    }
-  }
+	"version": "2.0.41",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.41/linux-x64/claude",
+			"hash": "sha256-YRVsfDDHcwz/r2IcmB4nHNqr2mhZL5TQzbnSbpwL51Q="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.41/linux-arm64/claude",
+			"hash": "sha256-zqHFNUVNDWwQUZhe/T92ni2iL3p56cwmeqfStsXmoM8="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.41/darwin-x64/claude",
+			"hash": "sha256-CJNbhiiql3fcCrgeNurcAP+jIfohcIL+S2jAh5CdGkg="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.41/darwin-arm64/claude",
+			"hash": "sha256-jd1szp1pASv7o+s6PrWiOlSMgUjybiqt0kZ6aYBmvtU="
+		}
+	}
 }

@@ -1,21 +1,21 @@
 {
-  "version": "2.0.73",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.73/linux-x64/claude",
-      "hash": "sha256-lQ+W7bF2GalNU6Uxm/VsGP+iuM5RX2W7HGeVLJl34GA="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.73/linux-arm64/claude",
-      "hash": "sha256-d5TaV0BXEhpLO2O/3D4E+hmLPwuUYONFLp7Jg2iKCZY="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.73/darwin-x64/claude",
-      "hash": "sha256-SUsv3anv9OIQ6wZDvz16qwQ+zk181os4NDdSFQgnvBI="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.73/darwin-arm64/claude",
-      "hash": "sha256-N7yckcuMWoV58hEKHx66ea8PVqKhRW+shzqrzYV43KQ="
-    }
-  }
+	"version": "2.0.73",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.73/linux-x64/claude",
+			"hash": "sha256-lQ+W7bF2GalNU6Uxm/VsGP+iuM5RX2W7HGeVLJl34GA="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.73/linux-arm64/claude",
+			"hash": "sha256-d5TaV0BXEhpLO2O/3D4E+hmLPwuUYONFLp7Jg2iKCZY="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.73/darwin-x64/claude",
+			"hash": "sha256-SUsv3anv9OIQ6wZDvz16qwQ+zk181os4NDdSFQgnvBI="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.73/darwin-arm64/claude",
+			"hash": "sha256-N7yckcuMWoV58hEKHx66ea8PVqKhRW+shzqrzYV43KQ="
+		}
+	}
 }

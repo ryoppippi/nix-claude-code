@@ -1,21 +1,21 @@
 {
-  "version": "2.0.27",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.27/linux-x64/claude",
-      "hash": "sha256-5A/eEfAzvhxAecednaaY3J6bejIRa34dAXk1csF/XyM="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.27/linux-arm64/claude",
-      "hash": "sha256-i85TFlTKgcisPNuMsiAKSk/daNtppUkdfJDLnvn+gH4="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.27/darwin-x64/claude",
-      "hash": "sha256-jTp7XGjD5+T5FuNlszVYTO9Y3DCDf95WtZnjB5WGAjQ="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.27/darwin-arm64/claude",
-      "hash": "sha256-zcd6kgQKWf0emb1NjVWFBQH0+gtWSc8W3+pL3bJfYTE="
-    }
-  }
+	"version": "2.0.27",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.27/linux-x64/claude",
+			"hash": "sha256-5A/eEfAzvhxAecednaaY3J6bejIRa34dAXk1csF/XyM="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.27/linux-arm64/claude",
+			"hash": "sha256-i85TFlTKgcisPNuMsiAKSk/daNtppUkdfJDLnvn+gH4="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.27/darwin-x64/claude",
+			"hash": "sha256-jTp7XGjD5+T5FuNlszVYTO9Y3DCDf95WtZnjB5WGAjQ="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.27/darwin-arm64/claude",
+			"hash": "sha256-zcd6kgQKWf0emb1NjVWFBQH0+gtWSc8W3+pL3bJfYTE="
+		}
+	}
 }

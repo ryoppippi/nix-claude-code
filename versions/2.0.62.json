@@ -1,21 +1,21 @@
 {
-  "version": "2.0.62",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.62/linux-x64/claude",
-      "hash": "sha256-qVEX4aPYN1yXp05I7wZ/RKkm4w5ilrl1oOf6xrnpmaw="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.62/linux-arm64/claude",
-      "hash": "sha256-fyl7UgjpyHF75OKJBHgvf4+hE0dc+wAma+s80PgOwqE="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.62/darwin-x64/claude",
-      "hash": "sha256-/u+kruG43YVBz4mRXGHrmHPB4PetcRF7boEuyoSgJqM="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.62/darwin-arm64/claude",
-      "hash": "sha256-DFd6Da0GFspYSrX0trIATIkh3bMliraep3/8Gj6/Vqo="
-    }
-  }
+	"version": "2.0.62",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.62/linux-x64/claude",
+			"hash": "sha256-qVEX4aPYN1yXp05I7wZ/RKkm4w5ilrl1oOf6xrnpmaw="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.62/linux-arm64/claude",
+			"hash": "sha256-fyl7UgjpyHF75OKJBHgvf4+hE0dc+wAma+s80PgOwqE="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.62/darwin-x64/claude",
+			"hash": "sha256-/u+kruG43YVBz4mRXGHrmHPB4PetcRF7boEuyoSgJqM="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.62/darwin-arm64/claude",
+			"hash": "sha256-DFd6Da0GFspYSrX0trIATIkh3bMliraep3/8Gj6/Vqo="
+		}
+	}
 }

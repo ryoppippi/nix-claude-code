@@ -1,21 +1,21 @@
 {
-  "version": "2.1.10",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.10/linux-x64/claude",
-      "hash": "sha256-Wi7NfsOp1ntUTABmDizDU0d5/FPh3jgWbA/RVe1LYlY="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.10/linux-arm64/claude",
-      "hash": "sha256-KrRhaWRKjCnQxF+hGaq8jNJBFSb3wXVRCBSzQaKmgVI="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.10/darwin-x64/claude",
-      "hash": "sha256-hpGo7xDGWd2xEb4Ws47QQHJqdv3QV7B5iXuh202RIPo="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.10/darwin-arm64/claude",
-      "hash": "sha256-AARhKa8jA6vRT1g7lKXOQZdYPShqtBfaeRcXQC1PzLM="
-    }
-  }
+	"version": "2.1.10",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.10/linux-x64/claude",
+			"hash": "sha256-Wi7NfsOp1ntUTABmDizDU0d5/FPh3jgWbA/RVe1LYlY="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.10/linux-arm64/claude",
+			"hash": "sha256-KrRhaWRKjCnQxF+hGaq8jNJBFSb3wXVRCBSzQaKmgVI="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.10/darwin-x64/claude",
+			"hash": "sha256-hpGo7xDGWd2xEb4Ws47QQHJqdv3QV7B5iXuh202RIPo="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.10/darwin-arm64/claude",
+			"hash": "sha256-AARhKa8jA6vRT1g7lKXOQZdYPShqtBfaeRcXQC1PzLM="
+		}
+	}
 }

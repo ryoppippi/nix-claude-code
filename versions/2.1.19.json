@@ -1,21 +1,21 @@
 {
-  "version": "2.1.19",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.19/linux-x64/claude",
-      "hash": "sha256-Tiocc4cezzsTM3a1fe0DMzp6Y4fy0qOmJ5u5Cgf3qUQ="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.19/linux-arm64/claude",
-      "hash": "sha256-jEthskynYNb3qi8ZcnFj0SLp/Qw86R8QaiG2kYp7G7s="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.19/darwin-x64/claude",
-      "hash": "sha256-viZrOpUvSD2DWK0UHir+ZhFwOGUG9Hnq2ZIxnk/cOKw="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.19/darwin-arm64/claude",
-      "hash": "sha256-04asj20UefhdMfNpQhyCQTXBAknDIIcBfQWl9CiFLEE="
-    }
-  }
+	"version": "2.1.19",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.19/linux-x64/claude",
+			"hash": "sha256-Tiocc4cezzsTM3a1fe0DMzp6Y4fy0qOmJ5u5Cgf3qUQ="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.19/linux-arm64/claude",
+			"hash": "sha256-jEthskynYNb3qi8ZcnFj0SLp/Qw86R8QaiG2kYp7G7s="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.19/darwin-x64/claude",
+			"hash": "sha256-viZrOpUvSD2DWK0UHir+ZhFwOGUG9Hnq2ZIxnk/cOKw="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.19/darwin-arm64/claude",
+			"hash": "sha256-04asj20UefhdMfNpQhyCQTXBAknDIIcBfQWl9CiFLEE="
+		}
+	}
 }

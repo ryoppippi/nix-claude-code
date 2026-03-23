@@ -1,21 +1,21 @@
 {
-  "version": "2.1.36",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.36/linux-x64/claude",
-      "hash": "sha256-NGbm+GvmKmDXYd4JYpDdkEXLKVxOQBGgc3RJwshACqU="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.36/linux-arm64/claude",
-      "hash": "sha256-wB5oyzA/Dt7zYZ2mjljxWjuWOOTbk26u5kTsMm5gOqM="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.36/darwin-x64/claude",
-      "hash": "sha256-eRSOK6yvORf3Xoy/kM0/dBh6H18QpiFqLci8hPwVrWw="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.36/darwin-arm64/claude",
-      "hash": "sha256-E9qK91PsJG0Jkq2lCN4FmzrVBxJwgVXUo0UMGK1hFeQ="
-    }
-  }
+	"version": "2.1.36",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.36/linux-x64/claude",
+			"hash": "sha256-NGbm+GvmKmDXYd4JYpDdkEXLKVxOQBGgc3RJwshACqU="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.36/linux-arm64/claude",
+			"hash": "sha256-wB5oyzA/Dt7zYZ2mjljxWjuWOOTbk26u5kTsMm5gOqM="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.36/darwin-x64/claude",
+			"hash": "sha256-eRSOK6yvORf3Xoy/kM0/dBh6H18QpiFqLci8hPwVrWw="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.36/darwin-arm64/claude",
+			"hash": "sha256-E9qK91PsJG0Jkq2lCN4FmzrVBxJwgVXUo0UMGK1hFeQ="
+		}
+	}
 }

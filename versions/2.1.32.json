@@ -1,21 +1,21 @@
 {
-  "version": "2.1.32",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/linux-x64/claude",
-      "hash": "sha256-ls0bp5Z3JIG9Sb1n47hIRWXR86mWYlZVFsO/4W2a/Uo="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/linux-arm64/claude",
-      "hash": "sha256-b4OQwP3luAL/d3q1QiUjP2FZ12kTrcO4rqfId0+o/nA="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/darwin-x64/claude",
-      "hash": "sha256-K4pXvlZAB24X0j5H6SiPLR+u5lZPTjEbX3Eyv95z/e0="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/darwin-arm64/claude",
-      "hash": "sha256-hBrDBRwESApWUbyfSuJ6udOWNHclDnGJLk1uBXeN2dM="
-    }
-  }
+	"version": "2.1.32",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/linux-x64/claude",
+			"hash": "sha256-ls0bp5Z3JIG9Sb1n47hIRWXR86mWYlZVFsO/4W2a/Uo="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/linux-arm64/claude",
+			"hash": "sha256-b4OQwP3luAL/d3q1QiUjP2FZ12kTrcO4rqfId0+o/nA="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/darwin-x64/claude",
+			"hash": "sha256-K4pXvlZAB24X0j5H6SiPLR+u5lZPTjEbX3Eyv95z/e0="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.32/darwin-arm64/claude",
+			"hash": "sha256-hBrDBRwESApWUbyfSuJ6udOWNHclDnGJLk1uBXeN2dM="
+		}
+	}
 }

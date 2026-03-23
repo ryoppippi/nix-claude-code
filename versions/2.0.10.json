@@ -1,21 +1,21 @@
 {
-  "version": "2.0.10",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.10/linux-x64/claude",
-      "hash": "sha256-mtX8UFViyuNt4EGMlH7Fom0mAtEscTFKZkihFWTuqC4="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.10/linux-arm64/claude",
-      "hash": "sha256-j0olPhiSTubwF1b5SFATO/JZUsGu6d2XhXsEmyzfpI8="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.10/darwin-x64/claude",
-      "hash": "sha256-nse20xDI0LiGIHc+qmzYsm6CBPzF2fPZRktwnxymtbc="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.10/darwin-arm64/claude",
-      "hash": "sha256-JFKR4IuOM1KixrHPOjUzzaqH6ZarLHbNQwfqMicYqEM="
-    }
-  }
+	"version": "2.0.10",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.10/linux-x64/claude",
+			"hash": "sha256-mtX8UFViyuNt4EGMlH7Fom0mAtEscTFKZkihFWTuqC4="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.10/linux-arm64/claude",
+			"hash": "sha256-j0olPhiSTubwF1b5SFATO/JZUsGu6d2XhXsEmyzfpI8="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.10/darwin-x64/claude",
+			"hash": "sha256-nse20xDI0LiGIHc+qmzYsm6CBPzF2fPZRktwnxymtbc="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.10/darwin-arm64/claude",
+			"hash": "sha256-JFKR4IuOM1KixrHPOjUzzaqH6ZarLHbNQwfqMicYqEM="
+		}
+	}
 }

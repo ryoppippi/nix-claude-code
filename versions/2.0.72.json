@@ -1,21 +1,21 @@
 {
-  "version": "2.0.72",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.72/linux-x64/claude",
-      "hash": "sha256-kVISSe9gHMLmoPRDLOCVrMmey7h88pwrW/ZS5WZQO7c="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.72/linux-arm64/claude",
-      "hash": "sha256-RPwh9GcMd64wsHBfecmlcr+FFqT4ypGPYjIERO02DEs="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.72/darwin-x64/claude",
-      "hash": "sha256-wNhH9EcDx82pp2r5CmFC0DSIWxWriszSywGsvft0B3I="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.72/darwin-arm64/claude",
-      "hash": "sha256-V8nr4TKl7YqpNNH3KMb+mwjcT59sRGl9mNllFY6djEg="
-    }
-  }
+	"version": "2.0.72",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.72/linux-x64/claude",
+			"hash": "sha256-kVISSe9gHMLmoPRDLOCVrMmey7h88pwrW/ZS5WZQO7c="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.72/linux-arm64/claude",
+			"hash": "sha256-RPwh9GcMd64wsHBfecmlcr+FFqT4ypGPYjIERO02DEs="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.72/darwin-x64/claude",
+			"hash": "sha256-wNhH9EcDx82pp2r5CmFC0DSIWxWriszSywGsvft0B3I="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.72/darwin-arm64/claude",
+			"hash": "sha256-V8nr4TKl7YqpNNH3KMb+mwjcT59sRGl9mNllFY6djEg="
+		}
+	}
 }

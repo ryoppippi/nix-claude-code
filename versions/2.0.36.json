@@ -1,21 +1,21 @@
 {
-  "version": "2.0.36",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.36/linux-x64/claude",
-      "hash": "sha256-s3wC1zGJbjNgpQFBkR74EhoCkwxbF8+hh7l8RLD+W8k="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.36/linux-arm64/claude",
-      "hash": "sha256-WBcBIbIiRnS461x3ZD17psborR4lY3xC5qxpAh+vUeY="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.36/darwin-x64/claude",
-      "hash": "sha256-C5Qvbm2Zyg2S+2IgNAexZW2NZyTWpa6vAdGnvF8AVsQ="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.36/darwin-arm64/claude",
-      "hash": "sha256-AjXbFaNgnMWhtqWszxFiNiuxTxMIShk0zW7MjQQtoAA="
-    }
-  }
+	"version": "2.0.36",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.36/linux-x64/claude",
+			"hash": "sha256-s3wC1zGJbjNgpQFBkR74EhoCkwxbF8+hh7l8RLD+W8k="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.36/linux-arm64/claude",
+			"hash": "sha256-WBcBIbIiRnS461x3ZD17psborR4lY3xC5qxpAh+vUeY="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.36/darwin-x64/claude",
+			"hash": "sha256-C5Qvbm2Zyg2S+2IgNAexZW2NZyTWpa6vAdGnvF8AVsQ="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.36/darwin-arm64/claude",
+			"hash": "sha256-AjXbFaNgnMWhtqWszxFiNiuxTxMIShk0zW7MjQQtoAA="
+		}
+	}
 }

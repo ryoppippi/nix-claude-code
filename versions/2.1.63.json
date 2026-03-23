@@ -1,21 +1,21 @@
 {
-  "version": "2.1.63",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.63/linux-x64/claude",
-      "hash": "sha256-c0RH5GG7kvD/1faDu2IWw1o8FujdhL6NFQtDYF05sNE="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.63/linux-arm64/claude",
-      "hash": "sha256-H+yMg2lga0psAK+WM1S31IrueT7V2zeP5M8oAUnzGQo="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.63/darwin-x64/claude",
-      "hash": "sha256-B4QtZSH1m8aJedgz7zPLwbmFufXgn6iXXv4DmYlmaqk="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.63/darwin-arm64/claude",
-      "hash": "sha256-LoZnMi4L0QQIffKohX8Xasx11wkaoCgogl3+tKVwhTE="
-    }
-  }
+	"version": "2.1.63",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.63/linux-x64/claude",
+			"hash": "sha256-c0RH5GG7kvD/1faDu2IWw1o8FujdhL6NFQtDYF05sNE="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.63/linux-arm64/claude",
+			"hash": "sha256-H+yMg2lga0psAK+WM1S31IrueT7V2zeP5M8oAUnzGQo="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.63/darwin-x64/claude",
+			"hash": "sha256-B4QtZSH1m8aJedgz7zPLwbmFufXgn6iXXv4DmYlmaqk="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.63/darwin-arm64/claude",
+			"hash": "sha256-LoZnMi4L0QQIffKohX8Xasx11wkaoCgogl3+tKVwhTE="
+		}
+	}
 }

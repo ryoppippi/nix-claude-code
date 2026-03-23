@@ -1,21 +1,21 @@
 {
-  "version": "2.0.20",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.20/linux-x64/claude",
-      "hash": "sha256-8wGX2fgR+XHF5mRERkZxkUwF89yAmaRQkfsG2Jg1Pe4="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.20/linux-arm64/claude",
-      "hash": "sha256-u9LhPvV5FiOiY8tNM40cGcKoCTi2bt+tqFSvX/4ok2o="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.20/darwin-x64/claude",
-      "hash": "sha256-OOWtqH6P4AB9RcRL5JQJExAAav7hZAqBetyG2ZT5M8s="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.20/darwin-arm64/claude",
-      "hash": "sha256-Z1NvYIi2YGc4zW/L6KZEXefS5gI7Uzf/6+HmNQX6CEs="
-    }
-  }
+	"version": "2.0.20",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.20/linux-x64/claude",
+			"hash": "sha256-8wGX2fgR+XHF5mRERkZxkUwF89yAmaRQkfsG2Jg1Pe4="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.20/linux-arm64/claude",
+			"hash": "sha256-u9LhPvV5FiOiY8tNM40cGcKoCTi2bt+tqFSvX/4ok2o="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.20/darwin-x64/claude",
+			"hash": "sha256-OOWtqH6P4AB9RcRL5JQJExAAav7hZAqBetyG2ZT5M8s="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.20/darwin-arm64/claude",
+			"hash": "sha256-Z1NvYIi2YGc4zW/L6KZEXefS5gI7Uzf/6+HmNQX6CEs="
+		}
+	}
 }

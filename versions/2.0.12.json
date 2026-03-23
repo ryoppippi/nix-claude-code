@@ -1,21 +1,21 @@
 {
-  "version": "2.0.12",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.12/linux-x64/claude",
-      "hash": "sha256-IRP3ZBWeO3wBxKuPgNYed29w+KxPSJNcVbBfmu3G108="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.12/linux-arm64/claude",
-      "hash": "sha256-n57gXqs6u3SRQTqjNRdy07MN4+u4ilBMMtGnTdIPOhU="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.12/darwin-x64/claude",
-      "hash": "sha256-GqWyAMfNVK4riNEcdimySBEGLP0YLs6+g+geror1ZmQ="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.12/darwin-arm64/claude",
-      "hash": "sha256-KHNKGM5/quO9JvrN60ohRKPq6lI6JReqwufGdiCpPRE="
-    }
-  }
+	"version": "2.0.12",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.12/linux-x64/claude",
+			"hash": "sha256-IRP3ZBWeO3wBxKuPgNYed29w+KxPSJNcVbBfmu3G108="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.12/linux-arm64/claude",
+			"hash": "sha256-n57gXqs6u3SRQTqjNRdy07MN4+u4ilBMMtGnTdIPOhU="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.12/darwin-x64/claude",
+			"hash": "sha256-GqWyAMfNVK4riNEcdimySBEGLP0YLs6+g+geror1ZmQ="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.12/darwin-arm64/claude",
+			"hash": "sha256-KHNKGM5/quO9JvrN60ohRKPq6lI6JReqwufGdiCpPRE="
+		}
+	}
 }

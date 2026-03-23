@@ -1,21 +1,21 @@
 {
-  "version": "2.0.66",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.66/linux-x64/claude",
-      "hash": "sha256-qcERBUyn3sfT7PCbn6sTqvZ1Y0tjCU89py960+Vi8oQ="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.66/linux-arm64/claude",
-      "hash": "sha256-U3PceXqlRE/r8TgGww8K3vmYlvvFa5lL7JY7I4utXhM="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.66/darwin-x64/claude",
-      "hash": "sha256-ktGfRX872YbKPwesMP/zfp0ei0HH7HAseWhJxamZTA8="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.66/darwin-arm64/claude",
-      "hash": "sha256-phFf+FOzSN842qPftgOzyebsIpc5N3Y7UkJjECtoCYI="
-    }
-  }
+	"version": "2.0.66",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.66/linux-x64/claude",
+			"hash": "sha256-qcERBUyn3sfT7PCbn6sTqvZ1Y0tjCU89py960+Vi8oQ="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.66/linux-arm64/claude",
+			"hash": "sha256-U3PceXqlRE/r8TgGww8K3vmYlvvFa5lL7JY7I4utXhM="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.66/darwin-x64/claude",
+			"hash": "sha256-ktGfRX872YbKPwesMP/zfp0ei0HH7HAseWhJxamZTA8="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.66/darwin-arm64/claude",
+			"hash": "sha256-phFf+FOzSN842qPftgOzyebsIpc5N3Y7UkJjECtoCYI="
+		}
+	}
 }

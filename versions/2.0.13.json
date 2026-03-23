@@ -1,21 +1,21 @@
 {
-  "version": "2.0.13",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.13/linux-x64/claude",
-      "hash": "sha256-psucX53m2HaTp5vHsJ1BBNgKIDvTdZ/A0u2BS07COk0="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.13/linux-arm64/claude",
-      "hash": "sha256-QtouGBZlPKlsLvCRsm2s/011BwWSaxxqk0+M01xEB80="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.13/darwin-x64/claude",
-      "hash": "sha256-LshfS6d5P9MHenSbBwy4eYeHDP11knM4pzA0RIAJ9PI="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.13/darwin-arm64/claude",
-      "hash": "sha256-jy+esSQxl8446DXFFA/LFjlSXnFszQI5g2mNGYQH9ns="
-    }
-  }
+	"version": "2.0.13",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.13/linux-x64/claude",
+			"hash": "sha256-psucX53m2HaTp5vHsJ1BBNgKIDvTdZ/A0u2BS07COk0="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.13/linux-arm64/claude",
+			"hash": "sha256-QtouGBZlPKlsLvCRsm2s/011BwWSaxxqk0+M01xEB80="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.13/darwin-x64/claude",
+			"hash": "sha256-LshfS6d5P9MHenSbBwy4eYeHDP11knM4pzA0RIAJ9PI="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.13/darwin-arm64/claude",
+			"hash": "sha256-jy+esSQxl8446DXFFA/LFjlSXnFszQI5g2mNGYQH9ns="
+		}
+	}
 }

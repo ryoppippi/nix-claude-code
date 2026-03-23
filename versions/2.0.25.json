@@ -1,21 +1,21 @@
 {
-  "version": "2.0.25",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.25/linux-x64/claude",
-      "hash": "sha256-kEKacdajxswiAlClXoi011Rhni0lK90h7ExDpbLrEns="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.25/linux-arm64/claude",
-      "hash": "sha256-ibljAocJvpzoCg2lKrgM1bBEdhLSaW2fYJ0M4itX63w="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.25/darwin-x64/claude",
-      "hash": "sha256-eoBs4y701idX2CyXXiJj/tDfnvvteNSvhjHBk5A2Fcg="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.25/darwin-arm64/claude",
-      "hash": "sha256-bGDswjwoewIluk9alRfYUI72+3OC6zY+nIB6bxef9ko="
-    }
-  }
+	"version": "2.0.25",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.25/linux-x64/claude",
+			"hash": "sha256-kEKacdajxswiAlClXoi011Rhni0lK90h7ExDpbLrEns="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.25/linux-arm64/claude",
+			"hash": "sha256-ibljAocJvpzoCg2lKrgM1bBEdhLSaW2fYJ0M4itX63w="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.25/darwin-x64/claude",
+			"hash": "sha256-eoBs4y701idX2CyXXiJj/tDfnvvteNSvhjHBk5A2Fcg="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.25/darwin-arm64/claude",
+			"hash": "sha256-bGDswjwoewIluk9alRfYUI72+3OC6zY+nIB6bxef9ko="
+		}
+	}
 }

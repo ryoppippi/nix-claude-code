@@ -1,21 +1,21 @@
 {
-  "version": "2.1.41",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.41/linux-x64/claude",
-      "hash": "sha256-N9Ij7JtUAg24VwI4vXcms99401DEytMIT4kvS1jwUrw="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.41/linux-arm64/claude",
-      "hash": "sha256-2rxgJYTol0fQSUV2ThKxugUOWCeUIdjbTAsu/Jahtio="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.41/darwin-x64/claude",
-      "hash": "sha256-jK6Spu/RNq0npvMgdh33+jPGF83IA33pDVExVbUSxk8="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.41/darwin-arm64/claude",
-      "hash": "sha256-niPP3prmX2VjBMzXUTwi5Q9zx618iSREEjZRLcZ8NUM="
-    }
-  }
+	"version": "2.1.41",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.41/linux-x64/claude",
+			"hash": "sha256-N9Ij7JtUAg24VwI4vXcms99401DEytMIT4kvS1jwUrw="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.41/linux-arm64/claude",
+			"hash": "sha256-2rxgJYTol0fQSUV2ThKxugUOWCeUIdjbTAsu/Jahtio="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.41/darwin-x64/claude",
+			"hash": "sha256-jK6Spu/RNq0npvMgdh33+jPGF83IA33pDVExVbUSxk8="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.41/darwin-arm64/claude",
+			"hash": "sha256-niPP3prmX2VjBMzXUTwi5Q9zx618iSREEjZRLcZ8NUM="
+		}
+	}
 }

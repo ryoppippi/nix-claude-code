@@ -1,21 +1,21 @@
 {
-  "version": "2.1.58",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.58/linux-x64/claude",
-      "hash": "sha256-EPaORbX/SoCuIebXqV3+ZzqzORMTNYzNlOgn83n2qqA="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.58/linux-arm64/claude",
-      "hash": "sha256-Xt1La+a56cAOWAXwIu6SSpj9zxvwwEY1pCnSZm7MvD8="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.58/darwin-x64/claude",
-      "hash": "sha256-+yzMaHLUmPxXHzAgWdUa7HyJsN9NIdJHqaJJwaOoNdw="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.58/darwin-arm64/claude",
-      "hash": "sha256-GCwgxggNBC5OCKayos6CWMGlDlPAHTbd8gqCtGkzleo="
-    }
-  }
+	"version": "2.1.58",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.58/linux-x64/claude",
+			"hash": "sha256-EPaORbX/SoCuIebXqV3+ZzqzORMTNYzNlOgn83n2qqA="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.58/linux-arm64/claude",
+			"hash": "sha256-Xt1La+a56cAOWAXwIu6SSpj9zxvwwEY1pCnSZm7MvD8="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.58/darwin-x64/claude",
+			"hash": "sha256-+yzMaHLUmPxXHzAgWdUa7HyJsN9NIdJHqaJJwaOoNdw="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.58/darwin-arm64/claude",
+			"hash": "sha256-GCwgxggNBC5OCKayos6CWMGlDlPAHTbd8gqCtGkzleo="
+		}
+	}
 }

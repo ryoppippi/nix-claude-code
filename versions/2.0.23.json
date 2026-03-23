@@ -1,21 +1,21 @@
 {
-  "version": "2.0.23",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.23/linux-x64/claude",
-      "hash": "sha256-TaM+OGfzRA4hVxFsQPOmuTOdO5eALijaVlpxDyjlATs="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.23/linux-arm64/claude",
-      "hash": "sha256-za4V3ztENZ3rw9T1ej33yNazhJPuTwkzTe1Awi0UmWA="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.23/darwin-x64/claude",
-      "hash": "sha256-3rbbE/FAUkhPtN8zskKgB54FggFGBFOi9CCgMO1VC+s="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.23/darwin-arm64/claude",
-      "hash": "sha256-I7YChCQmSVtsdp9NripNc8RA/wgi7jPTzsmJOs/8Ggs="
-    }
-  }
+	"version": "2.0.23",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.23/linux-x64/claude",
+			"hash": "sha256-TaM+OGfzRA4hVxFsQPOmuTOdO5eALijaVlpxDyjlATs="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.23/linux-arm64/claude",
+			"hash": "sha256-za4V3ztENZ3rw9T1ej33yNazhJPuTwkzTe1Awi0UmWA="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.23/darwin-x64/claude",
+			"hash": "sha256-3rbbE/FAUkhPtN8zskKgB54FggFGBFOi9CCgMO1VC+s="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.23/darwin-arm64/claude",
+			"hash": "sha256-I7YChCQmSVtsdp9NripNc8RA/wgi7jPTzsmJOs/8Ggs="
+		}
+	}
 }

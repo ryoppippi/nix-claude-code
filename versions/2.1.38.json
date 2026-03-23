@@ -1,21 +1,21 @@
 {
-  "version": "2.1.38",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.38/linux-x64/claude",
-      "hash": "sha256-eFj5CSK/Y9M4V7Y+BU4IpvyhlAc5U9iNUNYh+cuuAGk="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.38/linux-arm64/claude",
-      "hash": "sha256-6dUUEC+EuIWNUMmLqyE5Oi2WrEiVQ7cr7/Dlj9YJGSo="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.38/darwin-x64/claude",
-      "hash": "sha256-ypRE3264kaeZ0ixmbWBT+q8h/PTLogtI9oF5HwhOYlA="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.38/darwin-arm64/claude",
-      "hash": "sha256-cyaw0y+a2GN6Krl/206FN3fP+sTWOqWRCEQXdHlb6NA="
-    }
-  }
+	"version": "2.1.38",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.38/linux-x64/claude",
+			"hash": "sha256-eFj5CSK/Y9M4V7Y+BU4IpvyhlAc5U9iNUNYh+cuuAGk="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.38/linux-arm64/claude",
+			"hash": "sha256-6dUUEC+EuIWNUMmLqyE5Oi2WrEiVQ7cr7/Dlj9YJGSo="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.38/darwin-x64/claude",
+			"hash": "sha256-ypRE3264kaeZ0ixmbWBT+q8h/PTLogtI9oF5HwhOYlA="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.38/darwin-arm64/claude",
+			"hash": "sha256-cyaw0y+a2GN6Krl/206FN3fP+sTWOqWRCEQXdHlb6NA="
+		}
+	}
 }

@@ -1,21 +1,21 @@
 {
-  "version": "2.0.28",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.28/linux-x64/claude",
-      "hash": "sha256-J/oDCrGY70RHI4Fqh4rLgXq1hJUuLGfsGl1VgCxMuec="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.28/linux-arm64/claude",
-      "hash": "sha256-rfZgxL5ceAAF94FOKG3McXeScHVR1HYcsFB/i9aOYFc="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.28/darwin-x64/claude",
-      "hash": "sha256-eqW/OOm5GraMgNGYEdKDXmQjySuKCB9cj7vL2onhGgI="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.28/darwin-arm64/claude",
-      "hash": "sha256-Os2z4SyE0YcdaaTaEhRNPMvLZ/5N8TcIALMbo32MkEs="
-    }
-  }
+	"version": "2.0.28",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.28/linux-x64/claude",
+			"hash": "sha256-J/oDCrGY70RHI4Fqh4rLgXq1hJUuLGfsGl1VgCxMuec="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.28/linux-arm64/claude",
+			"hash": "sha256-rfZgxL5ceAAF94FOKG3McXeScHVR1HYcsFB/i9aOYFc="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.28/darwin-x64/claude",
+			"hash": "sha256-eqW/OOm5GraMgNGYEdKDXmQjySuKCB9cj7vL2onhGgI="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.28/darwin-arm64/claude",
+			"hash": "sha256-Os2z4SyE0YcdaaTaEhRNPMvLZ/5N8TcIALMbo32MkEs="
+		}
+	}
 }

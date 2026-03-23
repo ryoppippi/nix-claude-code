@@ -1,21 +1,21 @@
 {
-  "version": "2.1.39",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.39/linux-x64/claude",
-      "hash": "sha256-aOR3Wyk9leBtFoWBxSP8XBUjloF5Ip0xoCnyhbKs6v8="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.39/linux-arm64/claude",
-      "hash": "sha256-j2bgKlvopiDihvbmNPtCS1rAZXMbBIrz10XPcZsseFE="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.39/darwin-x64/claude",
-      "hash": "sha256-LLokpBClIm+XULj+foPb6aYUhe+bDrKGsLAEOKqZDQU="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.39/darwin-arm64/claude",
-      "hash": "sha256-2NeiuZamkQNqU5M6JZpTIlSkAJNK7kUuKJ4fREMCbYI="
-    }
-  }
+	"version": "2.1.39",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.39/linux-x64/claude",
+			"hash": "sha256-aOR3Wyk9leBtFoWBxSP8XBUjloF5Ip0xoCnyhbKs6v8="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.39/linux-arm64/claude",
+			"hash": "sha256-j2bgKlvopiDihvbmNPtCS1rAZXMbBIrz10XPcZsseFE="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.39/darwin-x64/claude",
+			"hash": "sha256-LLokpBClIm+XULj+foPb6aYUhe+bDrKGsLAEOKqZDQU="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.39/darwin-arm64/claude",
+			"hash": "sha256-2NeiuZamkQNqU5M6JZpTIlSkAJNK7kUuKJ4fREMCbYI="
+		}
+	}
 }

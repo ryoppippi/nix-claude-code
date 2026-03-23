@@ -1,21 +1,21 @@
 {
-  "version": "2.1.14",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/linux-x64/claude",
-      "hash": "sha256-KzHFPoYRdank7ouUZTvp+hk3GMMrGEy0etFupK3Hoa4="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/linux-arm64/claude",
-      "hash": "sha256-NrVYbL8eHPr+G17tYmwQ/QIXw0MOzvh9vzL1sXkGlgs="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/darwin-x64/claude",
-      "hash": "sha256-C0Tkmyh1XcPkLnvdIOmpHaeceLG9IWFB8G+WeS0xsjw="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/darwin-arm64/claude",
-      "hash": "sha256-nxsFihNM6ss9ly/Qf9s2pL2fsBzotJjp3EzJdZNolgI="
-    }
-  }
+	"version": "2.1.14",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/linux-x64/claude",
+			"hash": "sha256-KzHFPoYRdank7ouUZTvp+hk3GMMrGEy0etFupK3Hoa4="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/linux-arm64/claude",
+			"hash": "sha256-NrVYbL8eHPr+G17tYmwQ/QIXw0MOzvh9vzL1sXkGlgs="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/darwin-x64/claude",
+			"hash": "sha256-C0Tkmyh1XcPkLnvdIOmpHaeceLG9IWFB8G+WeS0xsjw="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.14/darwin-arm64/claude",
+			"hash": "sha256-nxsFihNM6ss9ly/Qf9s2pL2fsBzotJjp3EzJdZNolgI="
+		}
+	}
 }

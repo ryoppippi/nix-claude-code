@@ -1,21 +1,21 @@
 {
-  "version": "2.1.37",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/linux-x64/claude",
-      "hash": "sha256-+Wek0G4WoyQ2tjKeLb7UWan6TTTwdjWh+ycbdPcGyR8="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/linux-arm64/claude",
-      "hash": "sha256-1yXMcwYPQAp6wDp2mWk5fa7J1BHb1bHHux+mBCe/ZX4="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/darwin-x64/claude",
-      "hash": "sha256-Wtljm/NK/6RwZvuY8tetew8jYAl0TTCQd7GU2Jb8AR0="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/darwin-arm64/claude",
-      "hash": "sha256-AO0Qr7elYkQHc94xKEVozpwzOF1506kSoSryYq79Ew4="
-    }
-  }
+	"version": "2.1.37",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/linux-x64/claude",
+			"hash": "sha256-+Wek0G4WoyQ2tjKeLb7UWan6TTTwdjWh+ycbdPcGyR8="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/linux-arm64/claude",
+			"hash": "sha256-1yXMcwYPQAp6wDp2mWk5fa7J1BHb1bHHux+mBCe/ZX4="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/darwin-x64/claude",
+			"hash": "sha256-Wtljm/NK/6RwZvuY8tetew8jYAl0TTCQd7GU2Jb8AR0="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.37/darwin-arm64/claude",
+			"hash": "sha256-AO0Qr7elYkQHc94xKEVozpwzOF1506kSoSryYq79Ew4="
+		}
+	}
 }

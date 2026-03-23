@@ -1,21 +1,21 @@
 {
-  "version": "2.1.11",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.11/linux-x64/claude",
-      "hash": "sha256-nXnMYT1f7/GcgjMGAbzFPUHNA8QkMRENdLwyU/7+4mM="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.11/linux-arm64/claude",
-      "hash": "sha256-SUOQAg3M4c8ZKtGcIN9Puma3pzLp3DJ5Mom+lI5Ynmo="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.11/darwin-x64/claude",
-      "hash": "sha256-AV1Bnv+KzVXTquSeih5e1ePx/Ys//yeW/csraqvkmFQ="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.11/darwin-arm64/claude",
-      "hash": "sha256-I0XBOcdwV2w1S3o5OZ/5QcGo83VgXCCnq67f/5oU0dc="
-    }
-  }
+	"version": "2.1.11",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.11/linux-x64/claude",
+			"hash": "sha256-nXnMYT1f7/GcgjMGAbzFPUHNA8QkMRENdLwyU/7+4mM="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.11/linux-arm64/claude",
+			"hash": "sha256-SUOQAg3M4c8ZKtGcIN9Puma3pzLp3DJ5Mom+lI5Ynmo="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.11/darwin-x64/claude",
+			"hash": "sha256-AV1Bnv+KzVXTquSeih5e1ePx/Ys//yeW/csraqvkmFQ="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.11/darwin-arm64/claude",
+			"hash": "sha256-I0XBOcdwV2w1S3o5OZ/5QcGo83VgXCCnq67f/5oU0dc="
+		}
+	}
 }

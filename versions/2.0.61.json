@@ -1,21 +1,21 @@
 {
-  "version": "2.0.61",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.61/linux-x64/claude",
-      "hash": "sha256-XFaG6ZGA6wvQSYVk4fqZGqBcQZmggiKhXBVjYmMy6Pw="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.61/linux-arm64/claude",
-      "hash": "sha256-61QUw8c7tKLXyZoukAXz4JMIh+BmYcDXC/O+mrh39o4="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.61/darwin-x64/claude",
-      "hash": "sha256-d66mkuf6K6SXhttqqKW9BCl/l4HEzrgeNJVhfJCJ8r4="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.61/darwin-arm64/claude",
-      "hash": "sha256-s+1EDTwYjSb7rVqe342yaC7/EUoicy+p0ygUM6bJw+s="
-    }
-  }
+	"version": "2.0.61",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.61/linux-x64/claude",
+			"hash": "sha256-XFaG6ZGA6wvQSYVk4fqZGqBcQZmggiKhXBVjYmMy6Pw="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.61/linux-arm64/claude",
+			"hash": "sha256-61QUw8c7tKLXyZoukAXz4JMIh+BmYcDXC/O+mrh39o4="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.61/darwin-x64/claude",
+			"hash": "sha256-d66mkuf6K6SXhttqqKW9BCl/l4HEzrgeNJVhfJCJ8r4="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.61/darwin-arm64/claude",
+			"hash": "sha256-s+1EDTwYjSb7rVqe342yaC7/EUoicy+p0ygUM6bJw+s="
+		}
+	}
 }

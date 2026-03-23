@@ -1,21 +1,21 @@
 {
-  "version": "2.0.71",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.71/linux-x64/claude",
-      "hash": "sha256-OOqy/5Cylhr7yolX93nsimQt/pok/xadt4C4q2aFvzs="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.71/linux-arm64/claude",
-      "hash": "sha256-ffjgG2JIDEi7vhD/iS6XWJ0lZO8RxJqT9Ry3epb6SQA="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.71/darwin-x64/claude",
-      "hash": "sha256-mHXEHVy7tUYDUH6sZP34loQ/7o9cy7mjE4wcGaIqflM="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.71/darwin-arm64/claude",
-      "hash": "sha256-4dA76WZ8Re0ziaetI+XNmY2gGwYGfWjS2xewZg91/WI="
-    }
-  }
+	"version": "2.0.71",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.71/linux-x64/claude",
+			"hash": "sha256-OOqy/5Cylhr7yolX93nsimQt/pok/xadt4C4q2aFvzs="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.71/linux-arm64/claude",
+			"hash": "sha256-ffjgG2JIDEi7vhD/iS6XWJ0lZO8RxJqT9Ry3epb6SQA="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.71/darwin-x64/claude",
+			"hash": "sha256-mHXEHVy7tUYDUH6sZP34loQ/7o9cy7mjE4wcGaIqflM="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.71/darwin-arm64/claude",
+			"hash": "sha256-4dA76WZ8Re0ziaetI+XNmY2gGwYGfWjS2xewZg91/WI="
+		}
+	}
 }

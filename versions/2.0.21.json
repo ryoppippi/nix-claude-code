@@ -1,21 +1,21 @@
 {
-  "version": "2.0.21",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.21/linux-x64/claude",
-      "hash": "sha256-1rcGHE/hweybRpxSw7HiXmk2+IAHyTZRHst975qruqA="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.21/linux-arm64/claude",
-      "hash": "sha256-MWrIgmxG/EpyA0gKK9PmZaYcfLdgre+or6h68ZUg1Gg="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.21/darwin-x64/claude",
-      "hash": "sha256-X1BVgSlO3qlFK+JzOGZYhl40iq3//Fo68lXjptpGXTM="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.21/darwin-arm64/claude",
-      "hash": "sha256-yvR0HytiDvqZm6APkdNr1cI9bElFg/kRVXD9HUSqF98="
-    }
-  }
+	"version": "2.0.21",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.21/linux-x64/claude",
+			"hash": "sha256-1rcGHE/hweybRpxSw7HiXmk2+IAHyTZRHst975qruqA="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.21/linux-arm64/claude",
+			"hash": "sha256-MWrIgmxG/EpyA0gKK9PmZaYcfLdgre+or6h68ZUg1Gg="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.21/darwin-x64/claude",
+			"hash": "sha256-X1BVgSlO3qlFK+JzOGZYhl40iq3//Fo68lXjptpGXTM="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.21/darwin-arm64/claude",
+			"hash": "sha256-yvR0HytiDvqZm6APkdNr1cI9bElFg/kRVXD9HUSqF98="
+		}
+	}
 }

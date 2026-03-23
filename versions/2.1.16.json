@@ -1,21 +1,21 @@
 {
-  "version": "2.1.16",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.16/linux-x64/claude",
-      "hash": "sha256-0XSLTF9TVO9huIhL3Jv+uhE0G0yyPBpJjo+IVkLIEu8="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.16/linux-arm64/claude",
-      "hash": "sha256-vx4Gxp6/d79tD32D1ufY16NLK2wheq0u6b9OELG8DBw="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.16/darwin-x64/claude",
-      "hash": "sha256-59rVQWN+71slb46lNZ0phvFuYTBfYnapnQN7HU6SMzk="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.16/darwin-arm64/claude",
-      "hash": "sha256-NdvPquxQ6sG/BisXoKuX89cldrvNC7dg/Pua0z98pBM="
-    }
-  }
+	"version": "2.1.16",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.16/linux-x64/claude",
+			"hash": "sha256-0XSLTF9TVO9huIhL3Jv+uhE0G0yyPBpJjo+IVkLIEu8="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.16/linux-arm64/claude",
+			"hash": "sha256-vx4Gxp6/d79tD32D1ufY16NLK2wheq0u6b9OELG8DBw="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.16/darwin-x64/claude",
+			"hash": "sha256-59rVQWN+71slb46lNZ0phvFuYTBfYnapnQN7HU6SMzk="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.16/darwin-arm64/claude",
+			"hash": "sha256-NdvPquxQ6sG/BisXoKuX89cldrvNC7dg/Pua0z98pBM="
+		}
+	}
 }

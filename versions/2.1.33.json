@@ -1,21 +1,21 @@
 {
-  "version": "2.1.33",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.33/linux-x64/claude",
-      "hash": "sha256-yGVZMfNf6WPPACqnuiwhSXCFB0i/HaUkD5eUDC/Yg1w="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.33/linux-arm64/claude",
-      "hash": "sha256-fvYn5nAuCFXQDwTvmBjyPgtkVks+lBc/LsJE/PZZBZs="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.33/darwin-x64/claude",
-      "hash": "sha256-6BkBKtcIVMeHtT4uKRfyCQEh8jMqeVDugofZnr6irhg="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.33/darwin-arm64/claude",
-      "hash": "sha256-QWegdXiZqUumCrfYFfaHSi27cJntuBjqr1tE7R9BLt0="
-    }
-  }
+	"version": "2.1.33",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.33/linux-x64/claude",
+			"hash": "sha256-yGVZMfNf6WPPACqnuiwhSXCFB0i/HaUkD5eUDC/Yg1w="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.33/linux-arm64/claude",
+			"hash": "sha256-fvYn5nAuCFXQDwTvmBjyPgtkVks+lBc/LsJE/PZZBZs="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.33/darwin-x64/claude",
+			"hash": "sha256-6BkBKtcIVMeHtT4uKRfyCQEh8jMqeVDugofZnr6irhg="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.33/darwin-arm64/claude",
+			"hash": "sha256-QWegdXiZqUumCrfYFfaHSi27cJntuBjqr1tE7R9BLt0="
+		}
+	}
 }

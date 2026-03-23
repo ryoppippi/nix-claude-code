@@ -1,21 +1,21 @@
 {
-  "version": "2.0.68",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.68/linux-x64/claude",
-      "hash": "sha256-BTN+uNASjGT2zVDUCkvluVIIomo2hBg3tifKUbd45wg="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.68/linux-arm64/claude",
-      "hash": "sha256-nC/M1qc+4PX9MXdJLB09zybwd6GlMrAXQ7Qzxs5j0i4="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.68/darwin-x64/claude",
-      "hash": "sha256-t+sBJpoUTImGjrxtsizp1NdnA7CLmBYiMvzQhXPt+4k="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.68/darwin-arm64/claude",
-      "hash": "sha256-rAHb6MdzZXJhG/Qa6RnlY9xtP8J7CQA2ifIKQC4FHuI="
-    }
-  }
+	"version": "2.0.68",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.68/linux-x64/claude",
+			"hash": "sha256-BTN+uNASjGT2zVDUCkvluVIIomo2hBg3tifKUbd45wg="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.68/linux-arm64/claude",
+			"hash": "sha256-nC/M1qc+4PX9MXdJLB09zybwd6GlMrAXQ7Qzxs5j0i4="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.68/darwin-x64/claude",
+			"hash": "sha256-t+sBJpoUTImGjrxtsizp1NdnA7CLmBYiMvzQhXPt+4k="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.68/darwin-arm64/claude",
+			"hash": "sha256-rAHb6MdzZXJhG/Qa6RnlY9xtP8J7CQA2ifIKQC4FHuI="
+		}
+	}
 }

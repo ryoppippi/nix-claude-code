@@ -1,21 +1,21 @@
 {
-  "version": "2.1.53",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.53/linux-x64/claude",
-      "hash": "sha256-3r8obypel0pQ8QKgNKLftd+M9KxU9/QTYmC1+QA4V1c="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.53/linux-arm64/claude",
-      "hash": "sha256-+6TXAoOupm331Q/WzzPOwPvLC/eVmr4oT4paVnLtXjM="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.53/darwin-x64/claude",
-      "hash": "sha256-JW+RViCUya8CcYJOxlhZcZ+3JjbouTuLWtN07ubRNas="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.53/darwin-arm64/claude",
-      "hash": "sha256-G2cTuI2Lk/ydJo/+w7J9snDJb3Qt+CtFNuLk+U77H1I="
-    }
-  }
+	"version": "2.1.53",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.53/linux-x64/claude",
+			"hash": "sha256-3r8obypel0pQ8QKgNKLftd+M9KxU9/QTYmC1+QA4V1c="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.53/linux-arm64/claude",
+			"hash": "sha256-+6TXAoOupm331Q/WzzPOwPvLC/eVmr4oT4paVnLtXjM="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.53/darwin-x64/claude",
+			"hash": "sha256-JW+RViCUya8CcYJOxlhZcZ+3JjbouTuLWtN07ubRNas="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.53/darwin-arm64/claude",
+			"hash": "sha256-G2cTuI2Lk/ydJo/+w7J9snDJb3Qt+CtFNuLk+U77H1I="
+		}
+	}
 }

@@ -1,21 +1,21 @@
 {
-  "version": "2.1.68",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.68/linux-x64/claude",
-      "hash": "sha256-lpogzEqdluNEkJDtOU7+SEbpIM7F0Sy5zove9eGr5XU="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.68/linux-arm64/claude",
-      "hash": "sha256-SMYxJx3471OjSZdfJ28eLQ7X8Z/4iQQLZUbxbh3xwls="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.68/darwin-x64/claude",
-      "hash": "sha256-THgU99mx6J8VKrYCbBXTh+sR2lCkI2lskyTChMikfR8="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.68/darwin-arm64/claude",
-      "hash": "sha256-MbHl+l5HSApiSEpEr7yX+RWdwcfQ0aSy9BFFubPCzPw="
-    }
-  }
+	"version": "2.1.68",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.68/linux-x64/claude",
+			"hash": "sha256-lpogzEqdluNEkJDtOU7+SEbpIM7F0Sy5zove9eGr5XU="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.68/linux-arm64/claude",
+			"hash": "sha256-SMYxJx3471OjSZdfJ28eLQ7X8Z/4iQQLZUbxbh3xwls="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.68/darwin-x64/claude",
+			"hash": "sha256-THgU99mx6J8VKrYCbBXTh+sR2lCkI2lskyTChMikfR8="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.68/darwin-arm64/claude",
+			"hash": "sha256-MbHl+l5HSApiSEpEr7yX+RWdwcfQ0aSy9BFFubPCzPw="
+		}
+	}
 }

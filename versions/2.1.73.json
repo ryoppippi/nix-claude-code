@@ -1,21 +1,21 @@
 {
-  "version": "2.1.73",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.73/linux-x64/claude",
-      "hash": "sha256-lgzQ1xoiXzuUa7Sd1cGWJMVYB32c89pOtXA4C0MTW30="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.73/linux-arm64/claude",
-      "hash": "sha256-ep1oUcV99K96woAIF6gZcM8Xw4jgLTdJYQ0v4ZnC0PA="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.73/darwin-x64/claude",
-      "hash": "sha256-OwPhXj6AmtpJ5aQSXrNlCFhbbVrc1xWyPRyjvt6ypOk="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.73/darwin-arm64/claude",
-      "hash": "sha256-XUAvgE3eaZw4JOk/78GY2BpSlHpD5XgobqAc6pwCmnM="
-    }
-  }
+	"version": "2.1.73",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.73/linux-x64/claude",
+			"hash": "sha256-lgzQ1xoiXzuUa7Sd1cGWJMVYB32c89pOtXA4C0MTW30="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.73/linux-arm64/claude",
+			"hash": "sha256-ep1oUcV99K96woAIF6gZcM8Xw4jgLTdJYQ0v4ZnC0PA="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.73/darwin-x64/claude",
+			"hash": "sha256-OwPhXj6AmtpJ5aQSXrNlCFhbbVrc1xWyPRyjvt6ypOk="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.73/darwin-arm64/claude",
+			"hash": "sha256-XUAvgE3eaZw4JOk/78GY2BpSlHpD5XgobqAc6pwCmnM="
+		}
+	}
 }

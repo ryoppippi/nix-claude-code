@@ -1,21 +1,21 @@
 {
-  "version": "2.0.11",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.11/linux-x64/claude",
-      "hash": "sha256-LnlgwZubTsiLwvRFScb4yQtsG7H73Kq12MNQJuRLKvE="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.11/linux-arm64/claude",
-      "hash": "sha256-Gucm3CjEVZKMGwo6DwKGneyPssSK3i30Oza4CPaaLFE="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.11/darwin-x64/claude",
-      "hash": "sha256-Lkn3vJW0xDz4oqYFQLfyWsbc6R3ROJI0wZ2FOhesipE="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.11/darwin-arm64/claude",
-      "hash": "sha256-p05vW4z+nvWiBp4dOzX7YlLLCXW9zjmIIBuzjRauMsY="
-    }
-  }
+	"version": "2.0.11",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.11/linux-x64/claude",
+			"hash": "sha256-LnlgwZubTsiLwvRFScb4yQtsG7H73Kq12MNQJuRLKvE="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.11/linux-arm64/claude",
+			"hash": "sha256-Gucm3CjEVZKMGwo6DwKGneyPssSK3i30Oza4CPaaLFE="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.11/darwin-x64/claude",
+			"hash": "sha256-Lkn3vJW0xDz4oqYFQLfyWsbc6R3ROJI0wZ2FOhesipE="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.11/darwin-arm64/claude",
+			"hash": "sha256-p05vW4z+nvWiBp4dOzX7YlLLCXW9zjmIIBuzjRauMsY="
+		}
+	}
 }

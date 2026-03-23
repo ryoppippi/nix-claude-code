@@ -1,21 +1,21 @@
 {
-  "version": "2.0.57",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.57/linux-x64/claude",
-      "hash": "sha256-OJWAKtjkHOEF8mvdiSQIgHLsEQLcaPCImcTumiY1KWQ="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.57/linux-arm64/claude",
-      "hash": "sha256-S2mQxY10DFt5fRcwBiaCq+VtcoS8osCd3uy2pDuCu0o="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.57/darwin-x64/claude",
-      "hash": "sha256-8yYATMa0A/eNGvGn1c69FxCgZTJdJNmhd8b5Y5xeBVY="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.57/darwin-arm64/claude",
-      "hash": "sha256-vEw43GcSnK5qM6IJF0hnV3oSs7FwGQSj3XJmTSPNCwA="
-    }
-  }
+	"version": "2.0.57",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.57/linux-x64/claude",
+			"hash": "sha256-OJWAKtjkHOEF8mvdiSQIgHLsEQLcaPCImcTumiY1KWQ="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.57/linux-arm64/claude",
+			"hash": "sha256-S2mQxY10DFt5fRcwBiaCq+VtcoS8osCd3uy2pDuCu0o="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.57/darwin-x64/claude",
+			"hash": "sha256-8yYATMa0A/eNGvGn1c69FxCgZTJdJNmhd8b5Y5xeBVY="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.57/darwin-arm64/claude",
+			"hash": "sha256-vEw43GcSnK5qM6IJF0hnV3oSs7FwGQSj3XJmTSPNCwA="
+		}
+	}
 }

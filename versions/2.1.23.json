@@ -1,21 +1,21 @@
 {
-  "version": "2.1.23",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.23/linux-x64/claude",
-      "hash": "sha256-7/bRLIIgJguNaSazXeINquDbQ94jaSB2LH2kydINyEM="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.23/linux-arm64/claude",
-      "hash": "sha256-S0Wvuz6jcI727VA4p8wyBUSH8ftXf1bpQYuD0WP4jzI="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.23/darwin-x64/claude",
-      "hash": "sha256-8i2LHbY+YxvSqXuhSguSTZqBAtBu/cIWIopC+T1mW7w="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.23/darwin-arm64/claude",
-      "hash": "sha256-gOObvHy7x96hAdzzVnaicNW/8lqKjimrA4zrEx2Kez0="
-    }
-  }
+	"version": "2.1.23",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.23/linux-x64/claude",
+			"hash": "sha256-7/bRLIIgJguNaSazXeINquDbQ94jaSB2LH2kydINyEM="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.23/linux-arm64/claude",
+			"hash": "sha256-S0Wvuz6jcI727VA4p8wyBUSH8ftXf1bpQYuD0WP4jzI="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.23/darwin-x64/claude",
+			"hash": "sha256-8i2LHbY+YxvSqXuhSguSTZqBAtBu/cIWIopC+T1mW7w="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.23/darwin-arm64/claude",
+			"hash": "sha256-gOObvHy7x96hAdzzVnaicNW/8lqKjimrA4zrEx2Kez0="
+		}
+	}
 }

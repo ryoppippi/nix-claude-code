@@ -1,21 +1,21 @@
 {
-  "version": "2.0.37",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.37/linux-x64/claude",
-      "hash": "sha256-SKjikX9ruEGXoEw5KRXn+MAvGdDN6biVpCkiGDOm+LY="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.37/linux-arm64/claude",
-      "hash": "sha256-jEwX5ybwM4fmvGnLQxbXIfO8E5qLpU8DdojOmSHp7bg="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.37/darwin-x64/claude",
-      "hash": "sha256-OFGW6hhNQXwyle4kYIICvZTXMVKz4++yoNdzHlzCj7w="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.37/darwin-arm64/claude",
-      "hash": "sha256-ZA5r61cqU/+eqRTTA9YPe20CcwaNuf8n9IQzpuIP+/k="
-    }
-  }
+	"version": "2.0.37",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.37/linux-x64/claude",
+			"hash": "sha256-SKjikX9ruEGXoEw5KRXn+MAvGdDN6biVpCkiGDOm+LY="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.37/linux-arm64/claude",
+			"hash": "sha256-jEwX5ybwM4fmvGnLQxbXIfO8E5qLpU8DdojOmSHp7bg="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.37/darwin-x64/claude",
+			"hash": "sha256-OFGW6hhNQXwyle4kYIICvZTXMVKz4++yoNdzHlzCj7w="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.37/darwin-arm64/claude",
+			"hash": "sha256-ZA5r61cqU/+eqRTTA9YPe20CcwaNuf8n9IQzpuIP+/k="
+		}
+	}
 }

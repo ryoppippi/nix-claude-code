@@ -1,21 +1,21 @@
 {
-  "version": "2.0.44",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.44/linux-x64/claude",
-      "hash": "sha256-dbT0HbwMttnd7Rryf3H7u2M1I18SL7Xhw7tR+Uk4L/s="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.44/linux-arm64/claude",
-      "hash": "sha256-CWlKf8l7yKL+drrkbWVbV5HbUhh4FXIElNiSL3+uLWk="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.44/darwin-x64/claude",
-      "hash": "sha256-VqOQDfL0JFm5Vu8cpspCUfPfpffGJR7qxtoUllwI4cU="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.44/darwin-arm64/claude",
-      "hash": "sha256-Pgku5kPgIPt0zIBrsXHY7ZWknRmptg8cpGp9Bw4eAKo="
-    }
-  }
+	"version": "2.0.44",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.44/linux-x64/claude",
+			"hash": "sha256-dbT0HbwMttnd7Rryf3H7u2M1I18SL7Xhw7tR+Uk4L/s="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.44/linux-arm64/claude",
+			"hash": "sha256-CWlKf8l7yKL+drrkbWVbV5HbUhh4FXIElNiSL3+uLWk="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.44/darwin-x64/claude",
+			"hash": "sha256-VqOQDfL0JFm5Vu8cpspCUfPfpffGJR7qxtoUllwI4cU="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.44/darwin-arm64/claude",
+			"hash": "sha256-Pgku5kPgIPt0zIBrsXHY7ZWknRmptg8cpGp9Bw4eAKo="
+		}
+	}
 }

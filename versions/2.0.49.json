@@ -1,21 +1,21 @@
 {
-  "version": "2.0.49",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.49/linux-x64/claude",
-      "hash": "sha256-ggI8uRSa2GbFSoqkFl4Ui8+WdMOxGjiFyuiY0q5k74s="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.49/linux-arm64/claude",
-      "hash": "sha256-m41SBUPTi3QahoEnY532vd7Mg3ozgCG2/3XZesHgWdM="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.49/darwin-x64/claude",
-      "hash": "sha256-5oUUBjLGsQC2NsAqa1vrJ6InM2MDIUDVby96Z538WQg="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.49/darwin-arm64/claude",
-      "hash": "sha256-rLZGw3huKAOZwBMuv4kVK2sPz21kU7QewEsk+5Xtl5c="
-    }
-  }
+	"version": "2.0.49",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.49/linux-x64/claude",
+			"hash": "sha256-ggI8uRSa2GbFSoqkFl4Ui8+WdMOxGjiFyuiY0q5k74s="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.49/linux-arm64/claude",
+			"hash": "sha256-m41SBUPTi3QahoEnY532vd7Mg3ozgCG2/3XZesHgWdM="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.49/darwin-x64/claude",
+			"hash": "sha256-5oUUBjLGsQC2NsAqa1vrJ6InM2MDIUDVby96Z538WQg="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.49/darwin-arm64/claude",
+			"hash": "sha256-rLZGw3huKAOZwBMuv4kVK2sPz21kU7QewEsk+5Xtl5c="
+		}
+	}
 }

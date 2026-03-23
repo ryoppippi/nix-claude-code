@@ -1,21 +1,21 @@
 {
-  "version": "2.0.52",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/linux-x64/claude",
-      "hash": "sha256-LRrppxKYLa793G8A8m3X+D0cgmwF1l32GZaNJyeGGZE="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/linux-arm64/claude",
-      "hash": "sha256-NLFuq8P3rG8CDcfLJM/k1Hc2WUn+oPon2lRh5HkRmrs="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/darwin-x64/claude",
-      "hash": "sha256-rB2GaQvTx2MJ7MnvxBEBVgaCYagmCsXb9egs9m1E8lY="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/darwin-arm64/claude",
-      "hash": "sha256-J0UgN1bcjULFWQ1E6FnA3/nPT/DvxJ9R0MNK1IAfLcc="
-    }
-  }
+	"version": "2.0.52",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/linux-x64/claude",
+			"hash": "sha256-LRrppxKYLa793G8A8m3X+D0cgmwF1l32GZaNJyeGGZE="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/linux-arm64/claude",
+			"hash": "sha256-NLFuq8P3rG8CDcfLJM/k1Hc2WUn+oPon2lRh5HkRmrs="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/darwin-x64/claude",
+			"hash": "sha256-rB2GaQvTx2MJ7MnvxBEBVgaCYagmCsXb9egs9m1E8lY="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.52/darwin-arm64/claude",
+			"hash": "sha256-J0UgN1bcjULFWQ1E6FnA3/nPT/DvxJ9R0MNK1IAfLcc="
+		}
+	}
 }

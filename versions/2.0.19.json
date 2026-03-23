@@ -1,21 +1,21 @@
 {
-  "version": "2.0.19",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.19/linux-x64/claude",
-      "hash": "sha256-dvX2EkqZVywVMzWpD58HwjUG+gS9u1cnavRtIXTxDfg="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.19/linux-arm64/claude",
-      "hash": "sha256-T+drD+pyoMeyY7CnoQUIs4T0Vg2eHdlVR0b7uq4t1PU="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.19/darwin-x64/claude",
-      "hash": "sha256-HXz5HxRG2np+CdNQgq/Khi5b/UizAELcxaPZs6e4L8s="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.19/darwin-arm64/claude",
-      "hash": "sha256-lJPr7BvrFPOzTaAv1iqV3ENxzTd5wFsDCFwPHPTQ3dA="
-    }
-  }
+	"version": "2.0.19",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.19/linux-x64/claude",
+			"hash": "sha256-dvX2EkqZVywVMzWpD58HwjUG+gS9u1cnavRtIXTxDfg="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.19/linux-arm64/claude",
+			"hash": "sha256-T+drD+pyoMeyY7CnoQUIs4T0Vg2eHdlVR0b7uq4t1PU="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.19/darwin-x64/claude",
+			"hash": "sha256-HXz5HxRG2np+CdNQgq/Khi5b/UizAELcxaPZs6e4L8s="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.19/darwin-arm64/claude",
+			"hash": "sha256-lJPr7BvrFPOzTaAv1iqV3ENxzTd5wFsDCFwPHPTQ3dA="
+		}
+	}
 }

@@ -1,21 +1,21 @@
 {
-  "version": "2.1.17",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.17/linux-x64/claude",
-      "hash": "sha256-Eai8LezhzXcXpMETiDpXMJVRFHVUVZXSsOlvGI1lHg8="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.17/linux-arm64/claude",
-      "hash": "sha256-whYlwPlie6Qxxb41c8T4oN7mS1fg0RIgkwwp3hAo+Ck="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.17/darwin-x64/claude",
-      "hash": "sha256-ZZrYaFYDgT0QrffGjfw7BUaM0ceCRNM7wGV4P7Nsqmo="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.17/darwin-arm64/claude",
-      "hash": "sha256-HYGafA7RrWJ19CzytnBBq4Ca+xzTU3xu1uYYuI5aBTE="
-    }
-  }
+	"version": "2.1.17",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.17/linux-x64/claude",
+			"hash": "sha256-Eai8LezhzXcXpMETiDpXMJVRFHVUVZXSsOlvGI1lHg8="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.17/linux-arm64/claude",
+			"hash": "sha256-whYlwPlie6Qxxb41c8T4oN7mS1fg0RIgkwwp3hAo+Ck="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.17/darwin-x64/claude",
+			"hash": "sha256-ZZrYaFYDgT0QrffGjfw7BUaM0ceCRNM7wGV4P7Nsqmo="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.17/darwin-arm64/claude",
+			"hash": "sha256-HYGafA7RrWJ19CzytnBBq4Ca+xzTU3xu1uYYuI5aBTE="
+		}
+	}
 }

@@ -1,21 +1,21 @@
 {
-  "version": "2.1.30",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.30/linux-x64/claude",
-      "hash": "sha256-rajxz5Jyll04sQ8a22zqiF5iHIP357sjMAjHIfQ/rVQ="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.30/linux-arm64/claude",
-      "hash": "sha256-RfvzWhARsG+GFwsgvrZMWZ2wZYqscOLeJBDEXRV3VZY="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.30/darwin-x64/claude",
-      "hash": "sha256-igg2lgBkg7g4LsDkfNjy4yI/PSyrGiHFJPoIwIK1YA4="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.30/darwin-arm64/claude",
-      "hash": "sha256-PMwU8yKx6NoM1Yr8JU/VEA7uBm+hRynzB0Xmej95efc="
-    }
-  }
+	"version": "2.1.30",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.30/linux-x64/claude",
+			"hash": "sha256-rajxz5Jyll04sQ8a22zqiF5iHIP357sjMAjHIfQ/rVQ="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.30/linux-arm64/claude",
+			"hash": "sha256-RfvzWhARsG+GFwsgvrZMWZ2wZYqscOLeJBDEXRV3VZY="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.30/darwin-x64/claude",
+			"hash": "sha256-igg2lgBkg7g4LsDkfNjy4yI/PSyrGiHFJPoIwIK1YA4="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.30/darwin-arm64/claude",
+			"hash": "sha256-PMwU8yKx6NoM1Yr8JU/VEA7uBm+hRynzB0Xmej95efc="
+		}
+	}
 }

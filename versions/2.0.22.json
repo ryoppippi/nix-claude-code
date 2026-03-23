@@ -1,21 +1,21 @@
 {
-  "version": "2.0.22",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.22/linux-x64/claude",
-      "hash": "sha256-XyDUhi4VoMslnpT6zZsw8gwQFroyBfG6H8SmB8oSwS8="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.22/linux-arm64/claude",
-      "hash": "sha256-jH0KaHhCEW5aak8tS/V2PLwTQvUOZeBVNcpTDBx73jA="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.22/darwin-x64/claude",
-      "hash": "sha256-3Zrk+x1+0LUXRBxdD2PiQPIgOj0U0MJtQXqxfBLwdZ4="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.22/darwin-arm64/claude",
-      "hash": "sha256-DzsGjCHqOiRnIJNESjHgV/G0BSUkvosVhWTHgrasvIs="
-    }
-  }
+	"version": "2.0.22",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.22/linux-x64/claude",
+			"hash": "sha256-XyDUhi4VoMslnpT6zZsw8gwQFroyBfG6H8SmB8oSwS8="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.22/linux-arm64/claude",
+			"hash": "sha256-jH0KaHhCEW5aak8tS/V2PLwTQvUOZeBVNcpTDBx73jA="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.22/darwin-x64/claude",
+			"hash": "sha256-3Zrk+x1+0LUXRBxdD2PiQPIgOj0U0MJtQXqxfBLwdZ4="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.22/darwin-arm64/claude",
+			"hash": "sha256-DzsGjCHqOiRnIJNESjHgV/G0BSUkvosVhWTHgrasvIs="
+		}
+	}
 }

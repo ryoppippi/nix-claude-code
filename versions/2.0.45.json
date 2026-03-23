@@ -1,21 +1,21 @@
 {
-  "version": "2.0.45",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.45/linux-x64/claude",
-      "hash": "sha256-KrgkOWZe3dECgz3BkXrnr6i/7qksHa7aXD5C70B+YK8="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.45/linux-arm64/claude",
-      "hash": "sha256-Lm5+AKLO3LXgW9JDTTIkBW1+/1BITr9aBGg7W85hEsA="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.45/darwin-x64/claude",
-      "hash": "sha256-SNkuEJnzpmebBQWC37tNz2sTigiVjBYKJpuUGM8Q3ns="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.45/darwin-arm64/claude",
-      "hash": "sha256-pSqgmn3eDXABIGk7vFFLXeyzQhw4wgUeFiTt229yeqg="
-    }
-  }
+	"version": "2.0.45",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.45/linux-x64/claude",
+			"hash": "sha256-KrgkOWZe3dECgz3BkXrnr6i/7qksHa7aXD5C70B+YK8="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.45/linux-arm64/claude",
+			"hash": "sha256-Lm5+AKLO3LXgW9JDTTIkBW1+/1BITr9aBGg7W85hEsA="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.45/darwin-x64/claude",
+			"hash": "sha256-SNkuEJnzpmebBQWC37tNz2sTigiVjBYKJpuUGM8Q3ns="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.45/darwin-arm64/claude",
+			"hash": "sha256-pSqgmn3eDXABIGk7vFFLXeyzQhw4wgUeFiTt229yeqg="
+		}
+	}
 }

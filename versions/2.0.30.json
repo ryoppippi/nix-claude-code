@@ -1,21 +1,21 @@
 {
-  "version": "2.0.30",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.30/linux-x64/claude",
-      "hash": "sha256-/FQq+ackv/aQ+1CYzPibEh2iWOdkWsQAh5cxPHE0pMM="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.30/linux-arm64/claude",
-      "hash": "sha256-YihsnPSspjYgEWInw8bAecklgozMVegp77bD1KstfSg="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.30/darwin-x64/claude",
-      "hash": "sha256-tOZe9cdt/x+KABoeGpZ6ajz0nSmcUXTqfEGwKRcthMo="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.30/darwin-arm64/claude",
-      "hash": "sha256-O1umKLBvCpwuowrToVKR868lJ7xHkQe8gFDgFBe9va0="
-    }
-  }
+	"version": "2.0.30",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.30/linux-x64/claude",
+			"hash": "sha256-/FQq+ackv/aQ+1CYzPibEh2iWOdkWsQAh5cxPHE0pMM="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.30/linux-arm64/claude",
+			"hash": "sha256-YihsnPSspjYgEWInw8bAecklgozMVegp77bD1KstfSg="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.30/darwin-x64/claude",
+			"hash": "sha256-tOZe9cdt/x+KABoeGpZ6ajz0nSmcUXTqfEGwKRcthMo="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.30/darwin-arm64/claude",
+			"hash": "sha256-O1umKLBvCpwuowrToVKR868lJ7xHkQe8gFDgFBe9va0="
+		}
+	}
 }

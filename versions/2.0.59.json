@@ -1,21 +1,21 @@
 {
-  "version": "2.0.59",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.59/linux-x64/claude",
-      "hash": "sha256-In5FeUss26stBJfyEa+szg5nm976IQWh/3UmssCjwVo="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.59/linux-arm64/claude",
-      "hash": "sha256-MkQRdMNg/GOyNo7VHuLr2O8+H41wHlA5NESoQHxCOLE="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.59/darwin-x64/claude",
-      "hash": "sha256-0jjZgcykrcwFF1pHb+mMiF2+5K40906TQbCmKSbfdkA="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.59/darwin-arm64/claude",
-      "hash": "sha256-RwyOpv9SzOnkEDI6knwq+RH9XY1AuEobCe1Tx6cRBHU="
-    }
-  }
+	"version": "2.0.59",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.59/linux-x64/claude",
+			"hash": "sha256-In5FeUss26stBJfyEa+szg5nm976IQWh/3UmssCjwVo="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.59/linux-arm64/claude",
+			"hash": "sha256-MkQRdMNg/GOyNo7VHuLr2O8+H41wHlA5NESoQHxCOLE="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.59/darwin-x64/claude",
+			"hash": "sha256-0jjZgcykrcwFF1pHb+mMiF2+5K40906TQbCmKSbfdkA="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.59/darwin-arm64/claude",
+			"hash": "sha256-RwyOpv9SzOnkEDI6knwq+RH9XY1AuEobCe1Tx6cRBHU="
+		}
+	}
 }

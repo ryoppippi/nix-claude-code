@@ -1,21 +1,21 @@
 {
-  "version": "2.1.48",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.48/linux-x64/claude",
-      "hash": "sha256-UHXxtyVygf56FAA09pIaZqR1Cdl9vsujmL94kn+DzFA="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.48/linux-arm64/claude",
-      "hash": "sha256-yKEu4e90t2eu+w1tU/5hsNQJq59GzIkNXwGXc/EVn4k="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.48/darwin-x64/claude",
-      "hash": "sha256-aa6yHUCocFd8VEtROijWgfOsz+KtgBFi9zqUTB92x9k="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.48/darwin-arm64/claude",
-      "hash": "sha256-ei7mC2PzahOY5sbGRODm3mKTjwd3VXzumvOTgG1ekJs="
-    }
-  }
+	"version": "2.1.48",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.48/linux-x64/claude",
+			"hash": "sha256-UHXxtyVygf56FAA09pIaZqR1Cdl9vsujmL94kn+DzFA="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.48/linux-arm64/claude",
+			"hash": "sha256-yKEu4e90t2eu+w1tU/5hsNQJq59GzIkNXwGXc/EVn4k="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.48/darwin-x64/claude",
+			"hash": "sha256-aa6yHUCocFd8VEtROijWgfOsz+KtgBFi9zqUTB92x9k="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.48/darwin-arm64/claude",
+			"hash": "sha256-ei7mC2PzahOY5sbGRODm3mKTjwd3VXzumvOTgG1ekJs="
+		}
+	}
 }

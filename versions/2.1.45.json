@@ -1,21 +1,21 @@
 {
-  "version": "2.1.45",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.45/linux-x64/claude",
-      "hash": "sha256-5+hHODxGZplHB3Qejlar+E3SQwFTYg07pf9ahJN15N4="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.45/linux-arm64/claude",
-      "hash": "sha256-5njw6BEuRwqScjrWiD7LGUDRQRVI9njyHqTpzEEFfn8="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.45/darwin-x64/claude",
-      "hash": "sha256-0Q0C5rza58yNUaCDy36TM+eS027XPJSWA175VbOUtrk="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.45/darwin-arm64/claude",
-      "hash": "sha256-5lrxa5tzLOAdZCPCgffmolW1u4hQeAvs+ZkVM4bjf9Q="
-    }
-  }
+	"version": "2.1.45",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.45/linux-x64/claude",
+			"hash": "sha256-5+hHODxGZplHB3Qejlar+E3SQwFTYg07pf9ahJN15N4="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.45/linux-arm64/claude",
+			"hash": "sha256-5njw6BEuRwqScjrWiD7LGUDRQRVI9njyHqTpzEEFfn8="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.45/darwin-x64/claude",
+			"hash": "sha256-0Q0C5rza58yNUaCDy36TM+eS027XPJSWA175VbOUtrk="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.45/darwin-arm64/claude",
+			"hash": "sha256-5lrxa5tzLOAdZCPCgffmolW1u4hQeAvs+ZkVM4bjf9Q="
+		}
+	}
 }

@@ -1,21 +1,21 @@
 {
-  "version": "2.1.75",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.75/linux-x64/claude",
-      "hash": "sha256-MosKQpwFoE+REVfYhr5RI88YJKGbqMofnVlMAE6sMsk="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.75/linux-arm64/claude",
-      "hash": "sha256-7I9Pf3u1BhHa5wwQmnbuHaajq0VRHGXxF98hWEjsyQU="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.75/darwin-x64/claude",
-      "hash": "sha256-gskLkaChj2AZH4F7m0IwTYsX2+11eVtxXEH0/f5MeC0="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.75/darwin-arm64/claude",
-      "hash": "sha256-jFQaXpJO2iBw6vFwKkgEevZxxN/2oRpediB2YUoIJnU="
-    }
-  }
+	"version": "2.1.75",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.75/linux-x64/claude",
+			"hash": "sha256-MosKQpwFoE+REVfYhr5RI88YJKGbqMofnVlMAE6sMsk="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.75/linux-arm64/claude",
+			"hash": "sha256-7I9Pf3u1BhHa5wwQmnbuHaajq0VRHGXxF98hWEjsyQU="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.75/darwin-x64/claude",
+			"hash": "sha256-gskLkaChj2AZH4F7m0IwTYsX2+11eVtxXEH0/f5MeC0="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.75/darwin-arm64/claude",
+			"hash": "sha256-jFQaXpJO2iBw6vFwKkgEevZxxN/2oRpediB2YUoIJnU="
+		}
+	}
 }

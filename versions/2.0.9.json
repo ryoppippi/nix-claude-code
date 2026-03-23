@@ -1,21 +1,21 @@
 {
-  "version": "2.0.9",
-  "platforms": {
-    "x86_64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.9/linux-x64/claude",
-      "hash": "sha256-4utBtFN0U71aRqPTN9ju2Halx4I4EAhkqCZtt/wr4Bo="
-    },
-    "aarch64-linux": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.9/linux-arm64/claude",
-      "hash": "sha256-U5u3yJvs/YGKQsJs9KrmSCcq7Zso/3MbDCpZXefcPnI="
-    },
-    "x86_64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.9/darwin-x64/claude",
-      "hash": "sha256-k+6dtNZXe2xbkSnIZ3V+lO5lnuH0ZoE03txhnoK4vrY="
-    },
-    "aarch64-darwin": {
-      "url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.9/darwin-arm64/claude",
-      "hash": "sha256-SiZJnhV95vfCQa/WV5rAlf9PyyqImDgK3Ma0SQKMHLc="
-    }
-  }
+	"version": "2.0.9",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.9/linux-x64/claude",
+			"hash": "sha256-4utBtFN0U71aRqPTN9ju2Halx4I4EAhkqCZtt/wr4Bo="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.9/linux-arm64/claude",
+			"hash": "sha256-U5u3yJvs/YGKQsJs9KrmSCcq7Zso/3MbDCpZXefcPnI="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.9/darwin-x64/claude",
+			"hash": "sha256-k+6dtNZXe2xbkSnIZ3V+lO5lnuH0ZoE03txhnoK4vrY="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.0.9/darwin-arm64/claude",
+			"hash": "sha256-SiZJnhV95vfCQa/WV5rAlf9PyyqImDgK3Ma0SQKMHLc="
+		}
+	}
 }
