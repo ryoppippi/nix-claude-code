@@ -1,5 +1,5 @@
 {
-	"$schema": "https://oxc.rs/schemas/oxfmtrc.json",
+	"$schema": "https://unpkg.com/oxfmt/configuration_schema.json",
 	"useTabs": true,
 	"semi": true,
 	"singleQuote": true,
