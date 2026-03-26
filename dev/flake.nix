@@ -1,5 +1,5 @@
 {
-  description = "Development environment for claude-code-overlay";
+  description = "Development environment for nix-claude-code";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";

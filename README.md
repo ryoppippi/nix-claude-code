@@ -1,17 +1,17 @@
-# Claude Code Overlay
+# nix-claude-code
 
-A Nix flake overlay that provides pre-built Claude Code CLI binaries from official Anthropic releases.
+A Nix flake that provides pre-built Claude Code CLI binaries from official Anthropic releases.
 
-This overlay downloads binaries directly from Anthropic's distribution servers.
+This flake downloads binaries directly from Anthropic's distribution servers.
 
 ## Getting Started
 
 ```bash
 # Run the latest version
-nix run github:ryoppippi/claude-code-overlay
+nix run github:ryoppippi/nix-claude-code
 
 # Run a specific version
-nix run 'github:ryoppippi/claude-code-overlay#"2.1.81"'
+nix run 'github:ryoppippi/nix-claude-code#"2.1.81"'
 ```
 
 ## Features
@@ -23,9 +23,9 @@ nix run 'github:ryoppippi/claude-code-overlay#"2.1.81"'
 - ✅ Flake and non-flake support
 - ✅ Binary cache via [Cachix](https://app.cachix.org/cache/ryoppippi) for faster builds
 
-## Why Use This Overlay?
+## Why Use This Flake?
 
-While there are existing Claude Code packages in the Nix ecosystem ([llm-agents.nix](https://github.com/numtide/llm-agents.nix) and [nixpkgs](https://github.com/NixOS/nixpkgs/blob/nixos-unstable/pkgs/by-name/cl/claude-code/package.nix)), this overlay provides the **official pre-built binary distribution** with several advantages:
+While there are existing Claude Code packages in the Nix ecosystem ([llm-agents.nix](https://github.com/numtide/llm-agents.nix) and [nixpkgs](https://github.com/NixOS/nixpkgs/blob/nixos-unstable/pkgs/by-name/cl/claude-code/package.nix)), this flake provides the **official pre-built binary distribution** with several advantages:
 
 ### Performance Benefits
 
@@ -43,11 +43,11 @@ While there are existing Claude Code packages in the Nix ecosystem ([llm-agents.
 - **Consistent behaviour**: Same binaries used across all platforms match official installation methods
 - **Simplified maintenance**: No need to rebuild from source or manage runtime dependencies
 
-If you prioritise performance and want the officially supported distribution, this overlay is the recommended choice.
+If you prioritise performance and want the officially supported distribution, this flake is the recommended choice.
 
 ## Unfree Licence Notice
 
-Claude Code is distributed under an unfree licence. You must explicitly allow unfree packages to use this overlay.
+Claude Code is distributed under an unfree licence. You must explicitly allow unfree packages to use this flake.
 
 ### Option 1: Per-Package Allowance (Recommended)
 
@@ -91,7 +91,7 @@ This permits **all** unfree packages system-wide without explicit review.
 
 ## Binary Cache (Cachix)
 
-This overlay provides pre-built binaries via [Cachix](https://app.cachix.org/cache/ryoppippi). Using the binary cache avoids rebuilding packages locally and significantly speeds up installation.
+This flake provides pre-built binaries via [Cachix](https://app.cachix.org/cache/ryoppippi). Using the binary cache avoids rebuilding packages locally and significantly speeds up installation.
 
 ### Setup Cachix
 
@@ -146,10 +146,10 @@ Try Claude Code without installation:
 
 ```bash
 # Run Claude Code directly
-nix run github:ryoppippi/claude-code-overlay
+nix run github:ryoppippi/nix-claude-code
 
 # Or enter a shell with Claude Code available
-nix shell github:ryoppippi/claude-code-overlay
+nix shell github:ryoppippi/nix-claude-code
 claude --version
 ```
 
@@ -162,7 +162,7 @@ Add the overlay to your flake inputs:
 ```nix
 {
   inputs = {
-    claude-code-overlay.url = "github:ryoppippi/claude-code-overlay";
+    nix-claude-code.url = "github:ryoppippi/nix-claude-code";
   };
 }
 ```
@@ -175,16 +175,16 @@ Then use `pkgs.claude-code` in your configuration after adding the overlay to yo
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    claude-code-overlay.url = "github:ryoppippi/claude-code-overlay";
+    nix-claude-code.url = "github:ryoppippi/nix-claude-code";
   };
 
-  outputs = { nixpkgs, claude-code-overlay, ... }: {
+  outputs = { nixpkgs, nix-claude-code, ... }: {
     nixosConfigurations.yourhostname = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
         ({ pkgs, lib, ... }: {
           nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [ "claude" ];
-          nixpkgs.overlays = [ claude-code-overlay.overlays.default ];
+          nixpkgs.overlays = [ nix-claude-code.overlays.default ];
           environment.systemPackages = [ pkgs.claude-code ];
         })
       ];
@@ -205,10 +205,10 @@ The simplest approach - no `allowUnfree` configuration required:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    claude-code-overlay.url = "github:ryoppippi/claude-code-overlay";
+    nix-claude-code.url = "github:ryoppippi/nix-claude-code";
   };
 
-  outputs = { nixpkgs, claude-code-overlay, ... }:
+  outputs = { nixpkgs, nix-claude-code, ... }:
     let
       systems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
       forAllSystems = nixpkgs.lib.genAttrs systems;
@@ -221,7 +221,7 @@ The simplest approach - no `allowUnfree` configuration required:
         {
           default = pkgs.mkShell {
             packages = [
-              claude-code-overlay.packages.${system}.default
+              nix-claude-code.packages.${system}.default
               # Add other development tools here
             ];
           };
@@ -239,10 +239,10 @@ Use this if you want to reference the package as `pkgs.claude-code`:
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    claude-code-overlay.url = "github:ryoppippi/claude-code-overlay";
+    nix-claude-code.url = "github:ryoppippi/nix-claude-code";
   };
 
-  outputs = { nixpkgs, claude-code-overlay, ... }:
+  outputs = { nixpkgs, nix-claude-code, ... }:
     let
       systems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
       forAllSystems = nixpkgs.lib.genAttrs systems;
@@ -253,7 +253,7 @@ Use this if you want to reference the package as `pkgs.claude-code`:
           pkgs = import nixpkgs {
             inherit system;
             config.allowUnfreePredicate = pkg: builtins.elem (nixpkgs.lib.getName pkg) [ "claude" ];
-            overlays = [ claude-code-overlay.overlays.default ];
+            overlays = [ nix-claude-code.overlays.default ];
           };
         in
         {
@@ -283,15 +283,15 @@ Use Claude Code in a [devenv](https://devenv.sh/) development environment.
 **Add the input using CLI:**
 
 ```bash
-devenv inputs add claude-code-overlay github:ryoppippi/claude-code-overlay
+devenv inputs add nix-claude-code github:ryoppippi/nix-claude-code
 ```
 
 **Or manually in devenv.yaml:**
 
 ```yaml
 inputs:
-  claude-code-overlay:
-    url: github:ryoppippi/claude-code-overlay
+  nix-claude-code:
+    url: github:ryoppippi/nix-claude-code
 ```
 
 **devenv.nix:**
@@ -300,7 +300,7 @@ inputs:
 { pkgs, inputs, ... }:
 {
   packages = [
-    inputs.claude-code-overlay.packages.${pkgs.system}.default
+    inputs.nix-claude-code.packages.${pkgs.system}.default
   ];
 
   # Optional: use Cachix for faster builds
@@ -324,15 +324,15 @@ Use the overlay with home-manager's built-in `programs.claude-code` module:
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     home-manager.url = "github:nix-community/home-manager";
-    claude-code-overlay.url = "github:ryoppippi/claude-code-overlay";
+    nix-claude-code.url = "github:ryoppippi/nix-claude-code";
   };
 
-  outputs = { nixpkgs, home-manager, claude-code-overlay, ... }: {
+  outputs = { nixpkgs, home-manager, nix-claude-code, ... }: {
     homeConfigurations."user@hostname" = home-manager.lib.homeManagerConfiguration {
       pkgs = import nixpkgs {
         system = "x86_64-linux";
         config.allowUnfreePredicate = pkg: builtins.elem (nixpkgs.lib.getName pkg) [ "claude" ];
-        overlays = [ claude-code-overlay.overlays.default ];
+        overlays = [ nix-claude-code.overlays.default ];
       };
       modules = [{
         programs.claude-code = {
@@ -349,12 +349,12 @@ Use the overlay with home-manager's built-in `programs.claude-code` module:
 
 ```nix
 let
-  claude-code-overlay = import (builtins.fetchTarball {
-    url = "https://github.com/ryoppippi/claude-code-overlay/archive/main.tar.gz";
+  nix-claude-code = import (builtins.fetchTarball {
+    url = "https://github.com/ryoppippi/nix-claude-code/archive/main.tar.gz";
   });
   pkgs = import <nixpkgs> {
     config.allowUnfreePredicate = pkg: builtins.elem (pkgs.lib.getName pkg) [ "claude" ];
-    overlays = [ claude-code-overlay.overlays.default ];
+    overlays = [ nix-claude-code.overlays.default ];
   };
 in
   pkgs.claude-code
@@ -362,7 +362,7 @@ in
 
 ## Available Packages
 
-The overlay provides two package variants:
+The flake provides two package variants:
 
 | Package                    | Description                                                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
@@ -375,15 +375,15 @@ You can install a specific version of Claude Code by using versioned package att
 
 ```nix
 # Use a specific version
-claude-code-overlay.packages.${system}."2.1.81"
+nix-claude-code.packages.${system}."2.1.81"
 
 # Always use the latest (default behaviour)
-claude-code-overlay.packages.${system}.default
+nix-claude-code.packages.${system}.default
 ```
 
 ```bash
 # Run a specific version directly
-nix run 'github:ryoppippi/claude-code-overlay#"2.1.81"'
+nix run 'github:ryoppippi/nix-claude-code#"2.1.81"'
 ```
 
 All versions that have been tracked by this repository are available. See the [`versions/`](./versions) directory for available versions.
@@ -450,7 +450,7 @@ nix develop ./dev
 ./update
 ```
 
-### Test the overlay
+### Test the build
 
 ```bash
 nix build
@@ -474,14 +474,14 @@ nix flake check ./dev
 
 ### Comparison with llm-agents.nix
 
-Both this overlay and llm-agents.nix provide Claude Code packages using the official pre-built binaries. The main differences are:
+Both this flake and llm-agents.nix provide Claude Code packages using the official pre-built binaries. The main differences are:
 
-| Feature              | claude-code-overlay | llm-agents.nix   |
-| -------------------- | ------------------- | ---------------- |
-| **Scope**            | Claude Code only    | 50+ AI/LLM tools |
-| **Update frequency** | Hourly              | Daily            |
+| Feature              | nix-claude-code  | llm-agents.nix   |
+| -------------------- | ---------------- | ---------------- |
+| **Scope**            | Claude Code only | 50+ AI/LLM tools |
+| **Update frequency** | Hourly           | Daily            |
 
-Choose **claude-code-overlay** if you want faster updates. For other AI/LLM tools (Gemini CLI, OpenCode, etc.), we recommend using **llm-agents.nix**. Both can be used together.
+Choose **nix-claude-code** if you want faster updates. For other AI/LLM tools (Gemini CLI, OpenCode, etc.), we recommend using **llm-agents.nix**. Both can be used together.
 
 ## Credits
 
