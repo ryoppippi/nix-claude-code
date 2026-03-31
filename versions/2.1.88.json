@@ -1,0 +1,21 @@
+{
+	"version": "2.1.88",
+	"platforms": {
+		"x86_64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.88/linux-x64/claude",
+			"hash": "sha256-ztbKyVj6RCW5DmyTQaJnMXFfyxolPVvA9RyNWjpqtm4="
+		},
+		"aarch64-linux": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.88/linux-arm64/claude",
+			"hash": "sha256-K6SsFJshmMFeRYN/xQQUbHNfwegrn99xfCprng9wwCw="
+		},
+		"x86_64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.88/darwin-x64/claude",
+			"hash": "sha256-QDbBfF696vAk8ZiwQeAS5JS4yrjH3sG93lZ+u7/FEk0="
+		},
+		"aarch64-darwin": {
+			"url": "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases/2.1.88/darwin-arm64/claude",
+			"hash": "sha256-/g0ZGtt7DSa63R4wPpWmPWLVJsoftYgvU2RHVOHp/pU="
+		}
+	}
+}
