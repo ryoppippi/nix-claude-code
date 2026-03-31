@@ -53,6 +53,19 @@ async function fetchClaudeVersion(): Promise<string> {
 }
 
 /**
+ * Fetch all published versions from npm registry.
+ * @returns Sorted array of all version strings.
+ */
+async function fetchAllVersions(): Promise<string[]> {
+	const url = 'https://registry.npmjs.org/@anthropic-ai/claude-code';
+	const response = await fetch(url);
+	const json = (await response.json()) as { versions: Record<string, unknown> };
+	const versions = Object.keys(json.versions);
+	versions.sort((a, b) => semver.order(a, b));
+	return versions;
+}
+
+/**
  * Fetch the manifest.json for a specific version.
  */
 async function fetchManifest(version: string): Promise<Manifest> {
@@ -77,18 +90,22 @@ interface SourcesJSON {
 }
 
 /**
- * Get the current (latest) version from the versions directory.
+ * Get all existing versions from the versions directory.
+ * @returns Object with the sorted set of existing versions and the latest one.
  */
-async function getCurrentVersion(): Promise<string | null> {
+async function getExistingVersions(): Promise<{
+	versions: Set<string>;
+	latest: string | null;
+}> {
 	const versionsDir = join(import.meta.dir, 'versions');
 	const glob = new Glob('*.json');
 	const versions: string[] = [];
 	for await (const f of glob.scan(versionsDir)) {
 		versions.push(f.replace(/\.json$/, ''));
 	}
-	if (versions.length === 0) return null;
+	if (versions.length === 0) return { versions: new Set(), latest: null };
 	versions.sort((a, b) => semver.order(a, b));
-	return versions[versions.length - 1];
+	return { versions: new Set(versions), latest: versions[versions.length - 1] };
 }
 
 /**
@@ -118,37 +135,70 @@ async function writeVersionSources(
 	await Bun.write(versionedPath, JSON.stringify(sourcesData, null, 2) + '\n');
 }
 
-// Main execution
-const currentVersion = await getCurrentVersion();
-const latestVersion = await fetchClaudeVersion();
+/**
+ * Fetch manifest, compute SRI hashes, and write the version file.
+ * @returns true if the version was written, false if the manifest was unavailable.
+ */
+async function processVersion(version: string): Promise<boolean> {
+	let manifest: Manifest;
+	try {
+		manifest = await fetchManifest(version);
+	} catch {
+		console.warn(`  Skipping ${version}: manifest not available`);
+		return false;
+	}
 
-console.log(`Current version: ${currentVersion}`);
-console.log(`Latest version: ${latestVersion}`);
+	const hashes: Record<NixPlatform, string> = {} as Record<NixPlatform, string>;
 
-console.log(`Updating claude from ${currentVersion} to ${latestVersion}`);
+	for (const [nixPlatform, manifestPlatform] of Object.entries(platforms)) {
+		const platformData = manifest.platforms[manifestPlatform];
+		if (!platformData) {
+			console.warn(`  Skipping ${version}: missing platform ${manifestPlatform}`);
+			return false;
+		}
+		const sriHash = await sha256ToSri(platformData.checksum);
+		hashes[nixPlatform as NixPlatform] = sriHash;
+	}
 
-// Fetch manifest and extract hashes
-console.log('Fetching manifest.json...');
-const manifest = await fetchManifest(latestVersion);
-const hashes: Record<NixPlatform, string> = {} as Record<NixPlatform, string>;
-
-for (const [nixPlatform, manifestPlatform] of Object.entries(platforms)) {
-	const checksum = manifest.platforms[manifestPlatform].checksum;
-	const sriHash = await sha256ToSri(checksum);
-	hashes[nixPlatform as NixPlatform] = sriHash;
-	console.log(`  ${nixPlatform}: ${sriHash}`);
+	await writeVersionSources(version, hashes);
+	return true;
 }
 
-console.log();
+// Main execution
+const { versions: existingVersions, latest: currentVersion } = await getExistingVersions();
+const allNpmVersions = await fetchAllVersions();
+const latestVersion = allNpmVersions[allNpmVersions.length - 1];
 
-// Write versioned sources file
-await writeVersionSources(latestVersion, hashes);
-console.log(`Updated claude to version ${latestVersion}`);
+console.log(`Current version: ${currentVersion}`);
+console.log(`Latest version:  ${latestVersion}`);
+
+// Find the earliest existing version to determine the backfill range.
+// Only backfill versions >= the earliest version we already track.
+const existingArray = [...existingVersions].sort((a, b) => semver.order(a, b));
+const earliest = existingArray[0];
+
+const missingVersions = allNpmVersions.filter(
+	(v) => !existingVersions.has(v) && (!earliest || semver.order(v, earliest) >= 0),
+);
+
+if (missingVersions.length === 0) {
+	console.log('All versions are up to date!');
+} else {
+	console.log(`Found ${missingVersions.length} missing version(s): ${missingVersions.join(', ')}`);
+
+	for (const version of missingVersions) {
+		console.log(`Processing ${version}...`);
+		const ok = await processVersion(version);
+		if (ok) {
+			console.log(`  Added ${version}`);
+		}
+	}
+}
 
 // Format with oxfmt
 console.log('Formatting with oxfmt...');
 await $`oxfmt --config ${join(import.meta.dir, '.oxfmtrc.jsonc')} versions/*.json`.quiet();
 console.log('Done!');
 
-// Print version as the final line for CI consumption
+// Print the latest version as the final line for CI consumption
 console.log(latestVersion);
