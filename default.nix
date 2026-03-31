@@ -1,6 +1,7 @@
 {
   pkgs,
   additionalPaths ? [ ],
+  environment ? { },
   sourcesFile ? (
     let
       inherit (pkgs) lib;
@@ -14,4 +15,7 @@
   ),
   ...
 }:
-pkgs.callPackage ./package.nix { inherit additionalPaths sourcesFile; }
+pkgs.callPackage ./package.nix (
+  { inherit additionalPaths sourcesFile; }
+  // pkgs.lib.optionalAttrs (environment != { }) { inherit environment; }
+)
