@@ -70,6 +70,7 @@
                   language = "system";
                 };
               };
+              package = pkgs.prek;
             };
           };
 
