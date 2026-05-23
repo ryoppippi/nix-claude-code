@@ -18,13 +18,9 @@ let
     sources.${stdenv.hostPlatform.system}
       or (throw "Unsupported system: ${stdenv.hostPlatform.system}");
 
-  additionalOptions =
-    lib.optionalString (additionalPaths != [ ])
-      "--prefix PATH : ${
-        builtins.concatStringsSep ":" (
-          map (path: if lib.isDerivation path then lib.makeBinPath [ path ] else path) additionalPaths
-        )
-      }";
+  additionalOptions = lib.optionalString (
+    additionalPaths != [ ]
+  ) "--prefix PATH : ${builtins.concatStringsSep ":" additionalPaths}";
 in
 stdenv.mkDerivation rec {
   pname = "claude";
