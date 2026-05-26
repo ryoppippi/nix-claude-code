@@ -59,22 +59,37 @@
             };
           };
 
-          # Expose a full gitleaks scan as a flake check so `nix flake check`
-          # covers secret detection. The flake sandbox has no `.git`, so we scan
-          # the cleaned working tree with `--no-git` rather than the git history.
-          checks.gitleaks =
-            pkgs.runCommand "gitleaks"
-              {
-                nativeBuildInputs = [ pkgs.gitleaks ];
-              }
-              ''
-                gitleaks detect \
-                  --source ${pkgs.lib.cleanSource ./..} \
-                  --config ${gitleaksConfig} \
-                  --no-git \
-                  --redact
-                touch "$out"
-              '';
+          checks = {
+            # Expose a full gitleaks scan as a flake check so `nix flake check`
+            # covers secret detection. The flake sandbox has no `.git`, so we
+            # scan the cleaned working tree with `--no-git` rather than history.
+            gitleaks =
+              pkgs.runCommand "gitleaks"
+                {
+                  nativeBuildInputs = [ pkgs.gitleaks ];
+                }
+                ''
+                  gitleaks detect \
+                    --source ${pkgs.lib.cleanSource ./..} \
+                    --config ${gitleaksConfig} \
+                    --no-git \
+                    --redact
+                  touch "$out"
+                '';
+
+            # Validate the Renovate config in CI. The matching pre-commit hook
+            # only runs on `git commit`, so a dedicated check keeps the config
+            # covered by `nix flake check` once the pre-commit check is disabled.
+            renovate-config =
+              pkgs.runCommand "renovate-config"
+                {
+                  nativeBuildInputs = [ pkgs.renovate ];
+                }
+                ''
+                  renovate-config-validator --strict ${./../.github/renovate.json5}
+                  touch "$out"
+                '';
+          };
 
           pre-commit = {
             # These hooks run on `git commit` via the dev shell. `nix flake
