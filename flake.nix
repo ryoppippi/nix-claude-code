@@ -23,7 +23,12 @@
       versionNames = builtins.map (f: nixpkgs.lib.removeSuffix ".json" f) (
         builtins.filter (f: nixpkgs.lib.hasSuffix ".json" f) (builtins.attrNames versionFiles)
       );
+
       latestVersion = builtins.head (builtins.sort (a: b: builtins.compareVersions a b > 0) versionNames);
+
+      # The stable channel lags behind the latest release and cannot be derived
+      # from the version file names, so update.ts records it in a `stable` marker.
+      stableVersion = nixpkgs.lib.trim (builtins.readFile ./stable);
     in
     {
       packages = forAllSystems (
@@ -55,10 +60,14 @@
           );
 
           latestSourcesFile = ./versions/${latestVersion + ".json"};
+          stableSourcesFile = ./versions/${stableVersion + ".json"};
         in
         {
           claude = mkClaude latestSourcesFile;
           claude-minimal = mkClaudeMinimal latestSourcesFile;
+          latest = mkClaude latestSourcesFile;
+          stable = mkClaude stableSourcesFile;
+          stable-minimal = mkClaudeMinimal stableSourcesFile;
           default = self.packages.${system}.claude;
         }
         // versionedPackages
