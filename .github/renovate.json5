@@ -38,7 +38,7 @@
 			matchManagers: ['nix'],
 			matchFileNames: ['flake.lock', 'dev/flake.lock'],
 			groupName: 'nix flake dependencies',
-			schedule: ['before 3am on Monday'],
+			schedule: ['before 3am on Sunday'],
 			automerge: true,
 			automergeType: 'pr',
 			automergeStrategy: 'squash',
