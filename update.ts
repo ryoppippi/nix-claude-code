@@ -16,8 +16,15 @@
 import { $, Glob, semver } from 'bun';
 import { join } from 'node:path';
 
+// GCS (Google Cloud Storage) distribution endpoints
 const BASE_URL =
 	'https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases';
+const GCS_LATEST_URL = `${BASE_URL}/latest`;
+const GCS_STABLE_URL = `${BASE_URL}/stable`;
+
+// npm registry endpoints
+const NPM_PACKAGE_URL = 'https://registry.npmjs.org/@anthropic-ai/claude-code';
+const NPM_LATEST_URL = `${NPM_PACKAGE_URL}/latest`;
 
 // Type definitions
 interface ManifestPlatform {
@@ -42,14 +49,34 @@ const platforms = {
 type NixPlatform = keyof typeof platforms;
 
 /**
- * Fetch the latest version from npm registry.
- * The GCS stable endpoint may lag behind npm releases.
+ * Fetch the latest version from the npm registry.
+ * @returns The latest published version string.
  */
-async function fetchClaudeVersion(): Promise<string> {
-	const url = 'https://registry.npmjs.org/@anthropic-ai/claude-code/latest';
-	const response = await fetch(url);
+async function fetchNpmLatestVersion(): Promise<string> {
+	const response = await fetch(NPM_LATEST_URL);
 	const json = (await response.json()) as { version: string };
 	return json.version;
+}
+
+/**
+ * Fetch the latest version from the GCS distribution endpoint.
+ * @returns The latest published version string.
+ */
+async function fetchGcsLatestVersion(): Promise<string> {
+	const response = await fetch(GCS_LATEST_URL);
+	const text = await response.text();
+	return text.trim();
+}
+
+/**
+ * Fetch the stable version from the GCS distribution endpoint.
+ * The stable channel intentionally lags behind the latest release.
+ * @returns The stable published version string.
+ */
+async function fetchGcsStableVersion(): Promise<string> {
+	const response = await fetch(GCS_STABLE_URL);
+	const text = await response.text();
+	return text.trim();
 }
 
 /**
@@ -57,8 +84,7 @@ async function fetchClaudeVersion(): Promise<string> {
  * @returns Sorted array of all version strings.
  */
 async function fetchAllVersions(): Promise<string[]> {
-	const url = 'https://registry.npmjs.org/@anthropic-ai/claude-code';
-	const response = await fetch(url);
+	const response = await fetch(NPM_PACKAGE_URL);
 	const json = (await response.json()) as { versions: Record<string, unknown> };
 	const versions = Object.keys(json.versions);
 	versions.sort((a, b) => semver.order(a, b));
@@ -136,6 +162,18 @@ async function writeVersionSources(
 }
 
 /**
+ * Write the `stable` channel marker file containing a version string.
+ * The flake reads this marker to expose the `stable` package alias. The
+ * `latest` channel needs no marker: the flake derives it from the highest
+ * version file name.
+ * @param version - The stable version string the channel points to.
+ */
+async function writeStableMarker(version: string): Promise<void> {
+	const markerPath = join(import.meta.dir, 'stable');
+	await Bun.write(markerPath, version + '\n');
+}
+
+/**
  * Fetch manifest, compute SRI hashes, and write the version file.
  * @returns true if the version was written, false if the manifest was unavailable.
  */
@@ -166,10 +204,20 @@ async function processVersion(version: string): Promise<boolean> {
 
 // Main execution
 const { versions: existingVersions, latest: currentVersion } = await getExistingVersions();
-const allNpmVersions = await fetchAllVersions();
-const latestVersion = allNpmVersions[allNpmVersions.length - 1];
+const [allNpmVersions, npmLatest, gcsLatest, stableVersion] = await Promise.all([
+	fetchAllVersions(),
+	fetchNpmLatestVersion(),
+	fetchGcsLatestVersion(),
+	fetchGcsStableVersion(),
+]);
+
+// Determine the newest version reported by either source.
+const latestVersion = [npmLatest, gcsLatest].sort((a, b) => semver.order(a, b)).at(-1)!;
 
 console.log(`Current version: ${currentVersion}`);
+console.log(`npm latest:      ${npmLatest}`);
+console.log(`GCS latest:      ${gcsLatest}`);
+console.log(`GCS stable:      ${stableVersion}`);
 console.log(`Latest version:  ${latestVersion}`);
 
 // Find the earliest existing version to determine the backfill range.
@@ -194,6 +242,14 @@ if (missingVersions.length === 0) {
 		}
 	}
 }
+
+// Ensure the stable version is tracked, then record the channel markers.
+if (!existingVersions.has(stableVersion) && !missingVersions.includes(stableVersion)) {
+	console.log(`Processing stable ${stableVersion}...`);
+	await processVersion(stableVersion);
+}
+await writeStableMarker(stableVersion);
+console.log(`Marked stable -> ${stableVersion}`);
 
 // Format with oxfmt
 console.log('Formatting with oxfmt...');
