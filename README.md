@@ -10,6 +10,9 @@ This flake downloads binaries directly from Anthropic's distribution servers.
 # Run the latest version
 nix run github:ryoppippi/nix-claude-code
 
+# Run the stable channel
+nix run 'github:ryoppippi/nix-claude-code#stable'
+
 # Run a specific version
 nix run 'github:ryoppippi/nix-claude-code#"2.1.81"'
 ```
@@ -27,13 +30,9 @@ nix run 'github:ryoppippi/nix-claude-code#"2.1.81"'
 
 While there are existing Claude Code packages in the Nix ecosystem ([llm-agents.nix](https://github.com/numtide/llm-agents.nix) and [nixpkgs](https://github.com/NixOS/nixpkgs/blob/nixos-unstable/pkgs/by-name/cl/claude-code/package.nix)), this flake provides the **official pre-built binary distribution** with several advantages:
 
-### Performance Benefits
-
-- **Superior Bun performance**: Pre-built binaries compiled with Bun offer better performance than Node.js-based distributions with faster startup times, lower memory usage, and improved execution speed
-
 ### Official Support
 
-- **Recommended by Anthropic**: The official Claude Code documentation recommends using the pre-built binary distribution for optimal performance
+- **Recommended by Anthropic**: Anthropic has deprecated the npm (JavaScript) distribution and now recommends the pre-built native binary distribution that this flake packages
 - **Direct from official distribution**: Binaries downloaded directly from Anthropic's servers
 - **Guaranteed compatibility**: Official builds are tested and verified by Anthropic
 
@@ -42,8 +41,6 @@ While there are existing Claude Code packages in the Nix ecosystem ([llm-agents.
 - **Faster updates**: Automated hourly checks ensure you get the latest version quickly
 - **Consistent behaviour**: Same binaries used across all platforms match official installation methods
 - **Simplified maintenance**: No need to rebuild from source or manage runtime dependencies
-
-If you prioritise performance and want the officially supported distribution, this flake is the recommended choice.
 
 ## Unfree Licence Notice
 
@@ -362,12 +359,31 @@ in
 
 ## Available Packages
 
-The flake provides two package variants:
+The flake provides two package variants (exposed via the overlay):
 
 | Package                    | Description                                                                                                                           |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | `pkgs.claude-code`         | Default package with GitHub CLI (`gh`) bundled. Recommended for most users as Claude Code frequently uses `gh` for GitHub operations. |
 | `pkgs.claude-code-minimal` | Minimal package without bundled tools. Use this if you want to provide your own `gh` version or don't need GitHub integration.        |
+
+### Release Channels
+
+In addition to per-version attributes, the flake exposes channel aliases that track Anthropic's release channels. The `latest` channel follows the newest release (cross-checked against both the npm registry and Anthropic's distribution server), while `stable` follows the slower-moving stable channel, which intentionally lags behind `latest`.
+
+| Attribute                            | Channel                                          |
+| ------------------------------------ | ------------------------------------------------ |
+| `packages.${system}.default`         | Latest release (same as `latest`)                |
+| `packages.${system}.latest`          | Latest release, with `gh` bundled                |
+| `packages.${system}.stable`          | Stable channel release, with `gh` bundled        |
+| `packages.${system}.stable-minimal`  | Stable channel release, without bundled tools    |
+
+```bash
+# Latest release
+nix run github:ryoppippi/nix-claude-code#latest
+
+# Stable channel
+nix run github:ryoppippi/nix-claude-code#stable
+```
 
 ### Telemetry
 
@@ -412,6 +428,12 @@ nix-claude-code.packages.${system}."2.1.81"
 
 # Always use the latest (default behaviour)
 nix-claude-code.packages.${system}.default
+
+# Follow the latest channel explicitly
+nix-claude-code.packages.${system}.latest
+
+# Follow the stable channel
+nix-claude-code.packages.${system}.stable
 ```
 
 ```bash
@@ -434,8 +456,8 @@ pkgs.claude-code-minimal.override {
 
 ## How It Works
 
-1. The `update.ts` script fetches the latest stable version from Anthropic's release server
-2. It retrieves official SHA256 checksums from manifest.json and converts them to SRI format
+1. The `update.ts` script determines the newest release by checking both the npm registry and Anthropic's distribution server, and also records the current `stable` channel version
+2. It retrieves official SHA256 checksums from manifest.json and converts them to SRI format, writing one source file per version under `versions/` plus a `stable` channel marker
 3. GitHub Actions runs the update script hourly and commits any changes
 4. The flake provides pre-built binaries compiled with Bun for all supported platforms
 
