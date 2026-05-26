@@ -370,12 +370,12 @@ The flake provides two package variants (exposed via the overlay):
 
 In addition to per-version attributes, the flake exposes channel aliases that track Anthropic's release channels. The `latest` channel follows the newest release (cross-checked against both the npm registry and Anthropic's distribution server), while `stable` follows the slower-moving stable channel, which intentionally lags behind `latest`.
 
-| Attribute                            | Channel                                          |
-| ------------------------------------ | ------------------------------------------------ |
-| `packages.${system}.default`         | Latest release (same as `latest`)                |
-| `packages.${system}.latest`          | Latest release, with `gh` bundled                |
-| `packages.${system}.stable`          | Stable channel release, with `gh` bundled        |
-| `packages.${system}.stable-minimal`  | Stable channel release, without bundled tools    |
+| Attribute                           | Channel                                       |
+| ----------------------------------- | --------------------------------------------- |
+| `packages.${system}.default`        | Latest release (same as `latest`)             |
+| `packages.${system}.latest`         | Latest release, with `gh` bundled             |
+| `packages.${system}.stable`         | Stable channel release, with `gh` bundled     |
+| `packages.${system}.stable-minimal` | Stable channel release, without bundled tools |
 
 ```bash
 # Latest release
