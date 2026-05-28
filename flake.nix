@@ -67,6 +67,8 @@
           fhsPackages = nixpkgs.lib.optionalAttrs pkgs.stdenv.isLinux {
             claude-fhs = mkClaudeFhs (mkClaude latestSourcesFile);
             claude-minimal-fhs = mkClaudeFhs (mkClaudeMinimal latestSourcesFile);
+            stable-fhs = mkClaudeFhs (mkClaude stableSourcesFile);
+            stable-minimal-fhs = mkClaudeFhs (mkClaudeMinimal stableSourcesFile);
           };
         in
         {

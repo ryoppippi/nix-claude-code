@@ -385,6 +385,21 @@ nix run github:ryoppippi/nix-claude-code#latest
 nix run github:ryoppippi/nix-claude-code#stable
 ```
 
+### FHS-Wrapped Variants (Linux only)
+
+Claude Code's `agent-teams` feature downloads an additional Linux binary at runtime to `~/.local/share/claude`. That binary is unpatched and expects the standard FHS dynamic linker at `/lib64/ld-linux-x86-64.so.2`, which does not exist on NixOS. The flake exposes FHS-wrapped variants that provide a glibc-based root so these runtime-downloaded binaries can execute.
+
+| Attribute                                | Description                            |
+| ---------------------------------------- | -------------------------------------- |
+| `packages.${system}.claude-fhs`          | FHS-wrapped `claude` (latest)          |
+| `packages.${system}.claude-minimal-fhs`  | FHS-wrapped `claude-minimal` (latest)  |
+| `packages.${system}.stable-fhs`          | FHS-wrapped `stable`                   |
+| `packages.${system}.stable-minimal-fhs`  | FHS-wrapped `stable-minimal`           |
+| `pkgs.claude-code-fhs` (overlay)         | Overlay alias for `claude-fhs`         |
+| `pkgs.claude-code-minimal-fhs` (overlay) | Overlay alias for `claude-minimal-fhs` |
+
+The default `claude` / `claude-code` packages are unchanged — the FHS variants are opt-in because `buildFHSEnv` relies on user namespaces (`bwrap`), which are unavailable in some environments (e.g. some CI runners, restricted containers).
+
 ### Telemetry
 
 By default, this package does **not** disable telemetry or nonessential network traffic. This is intentional — disabling them breaks features like remote-control that depend on these subsystems.

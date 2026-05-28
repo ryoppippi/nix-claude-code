@@ -11,6 +11,9 @@ buildFHSEnv {
   name = "claude";
   inherit (claude-code) meta;
 
+  # `stdenv.cc.cc.lib` and `zlib` are also in claude-code's buildInputs, but
+  # they must be present in the FHS root so that *runtime-downloaded* binaries
+  # (which are not autoPatchelf'd) can resolve them via the standard loader.
   targetPkgs = pkgs: [
     claude-code
     pkgs.stdenv.cc.cc.lib
