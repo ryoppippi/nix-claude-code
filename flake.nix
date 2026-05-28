@@ -46,7 +46,7 @@
           mkClaude =
             sourcesFile:
             pkgs.callPackage ./package.nix {
-              additionalPaths = [ "${pkgs.gh}/bin" ];
+              additionalPaths = [ "${pkgs.gh}/bin" "${pkgs.poppler-utils}/bin" ];
               inherit sourcesFile;
             };
 
