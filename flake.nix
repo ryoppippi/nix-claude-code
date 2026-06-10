@@ -52,6 +52,8 @@
 
           mkClaudeMinimal = sourcesFile: pkgs.callPackage ./package.nix { inherit sourcesFile; };
 
+          mkClaudeFhs = claudePackage: pkgs.callPackage ./package-fhs.nix { claude-code = claudePackage; };
+
           versionedPackages = builtins.listToAttrs (
             builtins.map (version: {
               name = version;
@@ -61,6 +63,13 @@
 
           latestSourcesFile = ./versions/${latestVersion + ".json"};
           stableSourcesFile = ./versions/${stableVersion + ".json"};
+
+          fhsPackages = nixpkgs.lib.optionalAttrs pkgs.stdenv.isLinux {
+            claude-fhs = mkClaudeFhs (mkClaude latestSourcesFile);
+            claude-minimal-fhs = mkClaudeFhs (mkClaudeMinimal latestSourcesFile);
+            stable-fhs = mkClaudeFhs (mkClaude stableSourcesFile);
+            stable-minimal-fhs = mkClaudeFhs (mkClaudeMinimal stableSourcesFile);
+          };
         in
         {
           claude = mkClaude latestSourcesFile;
@@ -70,12 +79,19 @@
           stable-minimal = mkClaudeMinimal stableSourcesFile;
           default = self.packages.${system}.claude;
         }
+        // fhsPackages
         // versionedPackages
       );
 
-      overlays.default = _final: prev: {
-        claude-code = self.packages.${prev.stdenv.hostPlatform.system}.claude;
-        claude-code-minimal = self.packages.${prev.stdenv.hostPlatform.system}.claude-minimal;
-      };
+      overlays.default =
+        _final: prev:
+        {
+          claude-code = self.packages.${prev.stdenv.hostPlatform.system}.claude;
+          claude-code-minimal = self.packages.${prev.stdenv.hostPlatform.system}.claude-minimal;
+        }
+        // nixpkgs.lib.optionalAttrs prev.stdenv.isLinux {
+          claude-code-fhs = self.packages.${prev.stdenv.hostPlatform.system}.claude-fhs;
+          claude-code-minimal-fhs = self.packages.${prev.stdenv.hostPlatform.system}.claude-minimal-fhs;
+        };
     };
 }
