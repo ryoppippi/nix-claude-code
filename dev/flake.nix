@@ -57,6 +57,11 @@
               typos.enable = true;
               oxfmt.enable = true;
             };
+
+            settings.formatter.nufmt = {
+              command = pkgs.lib.getExe pkgs.nufmt;
+              includes = [ "*.nu" ];
+            };
           };
 
           checks = {

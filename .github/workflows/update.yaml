@@ -15,7 +15,7 @@ jobs:
           cachix-auth-token: ${{ secrets.CACHIX_AUTH_TOKEN }}
       - id: update
         run: |
-          VERSION=$(./update.ts | tail -1)
+          VERSION=$(./update.nu | tail -1)
           echo "version=$VERSION" >> "$GITHUB_OUTPUT"
       - run: 'git config user.email 41898282+github-actions[bot]@users.noreply.github.com'
       - run: 'git config user.name github-actions[bot]'

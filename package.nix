@@ -88,7 +88,7 @@ stdenv.mkDerivation rec {
     '';
 
   passthru = {
-    updateScript = ./update.ts;
+    updateScript = ./update.nu;
   };
 
   meta = with lib; {

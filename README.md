@@ -471,7 +471,7 @@ pkgs.claude-code-minimal.override {
 
 ## How It Works
 
-1. The `update.ts` script determines the newest release by checking both the npm registry and Anthropic's distribution server, and also records the current `stable` channel version
+1. The `update.nu` script determines the newest release by checking both the npm registry and Anthropic's distribution server, and also records the current `stable` channel version
 2. It retrieves official SHA256 checksums from manifest.json and converts them to SRI format, writing one source file per version under `versions/` plus a `stable` channel marker
 3. GitHub Actions runs the update script hourly and commits any changes
 4. The flake provides pre-built binaries compiled with Bun for all supported platforms
