@@ -8,7 +8,7 @@ runs:
   using: 'composite'
   steps:
     - name: Install Nix
-      uses: nixbuild/nix-quick-install-action@2c9db80fb984ceb1bcaa77cdda3fdf8cfba92035 # v34
+      uses: nixbuild/nix-quick-install-action@9f63be77f412a248c9d9a65a4c82cf066cdf8f0c # v35
 
     - name: Setup Cachix (ryoppippi)
       uses: cachix/cachix-action@5f2d7c5294214f71b873db4b969586b980625e71 # v17
