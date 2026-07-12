@@ -27,7 +27,7 @@
       latestVersion = builtins.head (builtins.sort (a: b: builtins.compareVersions a b > 0) versionNames);
 
       # The stable channel lags behind the latest release and cannot be derived
-      # from the version file names, so update.ts records it in a `stable` marker.
+      # from the version file names, so update.nu records it in a `stable` marker.
       stableVersion = nixpkgs.lib.trim (builtins.readFile ./stable);
     in
     {
