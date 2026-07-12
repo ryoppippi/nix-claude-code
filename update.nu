@@ -181,13 +181,21 @@ if ($missing_versions | is-empty) {
 	}
 }
 
-# Ensure the stable version is tracked, then record the channel markers.
-if not ($existing_versions | any {|e| $e == $stable_version}) and not ($missing_versions | any {|v| $v == $stable_version}) {
+# Ensure the stable version is tracked before recording the channel marker.
+# The marker must never point at a version file that does not exist, or the
+# flake's `stable` alias would fail to evaluate — on failure keep the previous
+# marker (still valid, stable naturally lags) and retry on the next run.
+let stable_path = ($script_dir | path join "versions" $"($stable_version).json")
+if not ($stable_path | path exists) {
 	print $"Processing stable ($stable_version)..."
 	process-version $stable_version | ignore
 }
-write-stable-marker $stable_version
-print $"Marked stable -> ($stable_version)"
+if ($stable_path | path exists) {
+	write-stable-marker $stable_version
+	print $"Marked stable -> ($stable_version)"
+} else {
+	print -e $"Keeping previous stable marker: failed to process stable ($stable_version)"
+}
 
 # Format with oxfmt
 print "Formatting with oxfmt..."
