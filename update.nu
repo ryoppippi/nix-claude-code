@@ -11,10 +11,8 @@
 
 const script_dir = (path self .)
 
-# GCS (Google Cloud Storage) distribution endpoints
+# GCS (Google Cloud Storage) distribution endpoint
 const BASE_URL = "https://storage.googleapis.com/claude-code-dist-86c565f3-f756-42ad-8dfa-d59b1c096819/claude-code-releases"
-const GCS_LATEST_URL = $"($BASE_URL)/latest"
-const GCS_STABLE_URL = $"($BASE_URL)/stable"
 
 # npm registry endpoints
 const NPM_PACKAGE_URL = "https://registry.npmjs.org/@anthropic-ai/claude-code"
@@ -43,35 +41,9 @@ def semver-gte [a: string, b: string] {
 	$last_sorted == ($a | into semver | into string)
 }
 
-# Fetch the latest version from the npm registry.
-def fetch-npm-latest-version [] {
-	http get $NPM_LATEST_URL | get version
-}
-
-# Fetch the latest version from the GCS distribution endpoint.
-def fetch-gcs-latest-version [] {
-	http get $GCS_LATEST_URL | str trim
-}
-
-# Fetch the stable version from the GCS distribution endpoint.
-# The stable channel intentionally lags behind the latest release.
-def fetch-gcs-stable-version [] {
-	http get $GCS_STABLE_URL | str trim
-}
-
-# Fetch all published versions from npm registry, sorted ascending.
-def fetch-all-versions [] {
-	http get $NPM_PACKAGE_URL | get versions | columns | semver-sort
-}
-
-# Fetch the manifest.json for a specific version.
-def fetch-manifest [version: string] {
-	http get $"($BASE_URL)/($version)/manifest.json"
-}
-
-# Convert a SHA256 hex hash to SRI format.
-def sha256-to-sri [sha256_hex: string] {
-	(nix hash to-sri --type sha256 $sha256_hex | str trim)
+# Fetch a version string from a GCS distribution channel (`latest` or `stable`).
+def fetch-gcs-channel [channel: string] {
+	http get $"($BASE_URL)/($channel)" | str trim
 }
 
 # Get all existing versions from the versions directory.
@@ -80,11 +52,12 @@ def get-existing-versions [] {
 		glob ($script_dir | path join "versions" "*.json")
 		| each { path parse | get stem }
 	)
-	if ($names | is-empty) {
-		{versions: [], latest: null}
-	} else {
-		let sorted = ($names | semver-sort)
-		{versions: $sorted, latest: ($sorted | last)}
+	match ($names | is-empty) {
+		true => {versions: [], latest: null}
+		false => {
+			let sorted = ($names | semver-sort)
+			{versions: $sorted, latest: ($sorted | last)}
+		}
 	}
 }
 
@@ -92,51 +65,56 @@ def get-existing-versions [] {
 def write-version-sources [version: string, hashes: record] {
 	let versioned_path = ($script_dir | path join "versions" $"($version).json")
 
-	mut platforms_data = {}
-	for it in ($platforms | transpose nix_platform manifest_platform) {
-		let url = $"($BASE_URL)/($version)/($it.manifest_platform)/claude"
-		$platforms_data = ($platforms_data | insert $it.nix_platform {
-			url: $url
-			hash: ($hashes | get $it.nix_platform)
-		})
-	}
+	let platforms_data = (
+		$platforms
+		| items {|nix_platform, manifest_platform|
+			{$nix_platform: {
+				url: $"($BASE_URL)/($version)/($manifest_platform)/claude"
+				hash: ($hashes | get $nix_platform)
+			}}
+		}
+		| reduce -f {} {|it, acc| $acc | merge $it}
+	)
 
 	let sources_data = {version: $version, platforms: $platforms_data}
 	(($sources_data | to json --indent 2) + "\n") | save -f $versioned_path
 }
 
-# Write the `stable` channel marker file containing a version string.
-# The flake reads this marker to expose the `stable` package alias. The
-# `latest` channel needs no marker: the flake derives it from the highest
-# version file name.
-def write-stable-marker [version: string] {
-	let marker_path = ($script_dir | path join "stable")
-	$"($version)\n" | save -f $marker_path
-}
-
 # Fetch manifest, compute SRI hashes, and write the version file.
 # Returns true if the version was written, false if the manifest was unavailable.
 def process-version [version: string] {
-	let manifest = (try { fetch-manifest $version } catch {|err|
+	let manifest = (try { http get $"($BASE_URL)/($version)/manifest.json" } catch {|err|
 		print -e $"  Skipping ($version): ($err.msg)"
 		null
 	})
-	if $manifest == null {
-		return false
-	}
 
-	mut hashes = {}
-	for it in ($platforms | transpose nix_platform manifest_platform) {
-		let platform_data = ($manifest.platforms | get -o $it.manifest_platform)
-		if $platform_data == null {
-			print -e $"  Skipping ($version): missing platform ($it.manifest_platform)"
-			return false
+	match $manifest {
+		null => false
+		_ => {
+			let results = (
+				$platforms
+				| items {|nix_platform, manifest_platform|
+					let platform_data = ($manifest.platforms | get -o $manifest_platform)
+					match $platform_data {
+						null => {
+							print -e $"  Skipping ($version): missing platform ($manifest_platform)"
+							null
+						}
+						_ => {$nix_platform: (nix hash to-sri --type sha256 $platform_data.checksum | str trim)}
+					}
+				}
+			)
+
+			match ($results | any {|r| $r == null}) {
+				true => false
+				false => {
+					let hashes = ($results | reduce -f {} {|it, acc| $acc | merge $it})
+					write-version-sources $version $hashes
+					true
+				}
+			}
 		}
-		$hashes = ($hashes | insert $it.nix_platform (sha256-to-sri $platform_data.checksum))
 	}
-
-	write-version-sources $version $hashes
-	true
 }
 
 # Main execution
@@ -144,10 +122,11 @@ let existing = (get-existing-versions)
 let existing_versions = $existing.versions
 let current_version = $existing.latest
 
-let all_npm_versions = (fetch-all-versions)
-let npm_latest = (fetch-npm-latest-version)
-let gcs_latest = (fetch-gcs-latest-version)
-let stable_version = (fetch-gcs-stable-version)
+let all_npm_versions = (http get $NPM_PACKAGE_URL | get versions | columns | semver-sort)
+let npm_latest = (http get $NPM_LATEST_URL | get version)
+# The stable channel intentionally lags behind the latest release.
+let gcs_latest = (fetch-gcs-channel "latest")
+let stable_version = (fetch-gcs-channel "stable")
 
 # Determine the newest version reported by either source.
 let latest_version = ([$npm_latest $gcs_latest] | semver-sort | last)
@@ -167,17 +146,18 @@ let missing_versions = (
 	| where {|v| $v not-in $existing_versions and ($earliest == null or (semver-gte $v $earliest))}
 )
 
-if ($missing_versions | is-empty) {
-	print "All versions are up to date!"
-} else {
-	print $"Found ($missing_versions | length) missing version\(s\): ($missing_versions | str join ', ')"
+match ($missing_versions | is-empty) {
+	true => { print "All versions are up to date!" }
+	false => {
+		print $"Found ($missing_versions | length) missing version\(s\): ($missing_versions | str join ', ')"
 
-	for version in $missing_versions {
-		print $"Processing ($version)..."
-		let ok = (process-version $version)
-		if $ok {
-			print $"  Added ($version)"
-		}
+		$missing_versions | each {|version|
+			print $"Processing ($version)..."
+			match (process-version $version) {
+				true => { print $"  Added ($version)" }
+				false => {}
+			}
+		} | ignore
 	}
 }
 
@@ -186,15 +166,24 @@ if ($missing_versions | is-empty) {
 # flake's `stable` alias would fail to evaluate — on failure keep the previous
 # marker (still valid, stable naturally lags) and retry on the next run.
 let stable_path = ($script_dir | path join "versions" $"($stable_version).json")
-if not ($stable_path | path exists) {
-	print $"Processing stable ($stable_version)..."
-	process-version $stable_version | ignore
+match ($stable_path | path exists) {
+	true => {}
+	false => {
+		print $"Processing stable ($stable_version)..."
+		process-version $stable_version | ignore
+	}
 }
-if ($stable_path | path exists) {
-	write-stable-marker $stable_version
-	print $"Marked stable -> ($stable_version)"
-} else {
-	print -e $"Keeping previous stable marker: failed to process stable ($stable_version)"
+match ($stable_path | path exists) {
+	true => {
+		# The flake reads this marker to expose the `stable` package alias.
+		# The `latest` channel needs no marker: the flake derives it from
+		# the highest version file name.
+		$"($stable_version)\n" | save -f ($script_dir | path join "stable")
+		print $"Marked stable -> ($stable_version)"
+	}
+	false => {
+		print -e $"Keeping previous stable marker: failed to process stable ($stable_version)"
+	}
 }
 
 # Format with oxfmt
