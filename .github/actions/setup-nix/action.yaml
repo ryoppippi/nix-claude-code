@@ -1,23 +1,27 @@
 name: 'Setup Nix'
-description: 'Install Nix and configure Cachix'
-inputs:
-  cachix-auth-token:
-    description: 'Cachix authentication token'
-    required: false
+description: 'Install Nix with the Numtide binary cache configured'
 runs:
   using: 'composite'
   steps:
+    # Ubuntu 24.04 runner images restrict unprivileged user-namespace creation
+    # via AppArmor by default, which breaks bubblewrap-based sandboxing (e.g.
+    # grok's Linux wrapper) invoked from within a Nix build.
+    - name: Allow unprivileged user namespaces
+      if: runner.os == 'Linux'
+      shell: bash
+      run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0 2>/dev/null || true
+
     - name: Install Nix
       uses: nixbuild/nix-quick-install-action@9f63be77f412a248c9d9a65a4c82cf066cdf8f0c # v35
-
-    - name: Setup Cachix (ryoppippi)
-      uses: cachix/cachix-action@5f2d7c5294214f71b873db4b969586b980625e71 # v17
       with:
-        name: ryoppippi
-        authToken: ${{ inputs.cachix-auth-token }}
+        nix_conf: |
+          accept-flake-config = true
+          access-tokens = github.com=${{ github.token }}
+          max-jobs = auto
 
     - name: Cache Nix store
       uses: nix-community/cache-nix-action@7df957e333c1e5da7721f60227dbba6d06080569 # v7.0.2
       with:
         primary-key: nix-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('flake.lock') }}
         restore-prefixes-first-match: nix-${{ runner.os }}-${{ runner.arch }}-
+        gc-max-store-size-linux: 4G
