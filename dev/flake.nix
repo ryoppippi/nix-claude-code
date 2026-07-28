@@ -57,6 +57,14 @@
               typos.enable = true;
               oxfmt.enable = true;
             };
+
+            # treefmt-nix ships no nufmt module, so declare the formatter by
+            # hand. Without it `update.nu` is the one tracked source file that
+            # no formatter checks.
+            settings.formatter.nufmt = {
+              command = pkgs.lib.getExe pkgs.nufmt;
+              includes = [ "*.nu" ];
+            };
           };
 
           checks = {
