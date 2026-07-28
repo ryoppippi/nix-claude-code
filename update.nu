@@ -117,80 +117,84 @@ def process-version [version: string] {
 	}
 }
 
-# Main execution
-let existing = (get-existing-versions)
-let existing_versions = $existing.versions
-let current_version = $existing.latest
+# Backfill every version file missing from the tracked range, refresh the
+# `stable` channel marker, and print the newest known version as the final line
+# for CI consumption.
+def main [] {
+	let existing = (get-existing-versions)
+	let existing_versions = $existing.versions
+	let current_version = $existing.latest
 
-let all_npm_versions = (http get $NPM_PACKAGE_URL | get versions | columns | semver-sort)
-let npm_latest = (http get $NPM_LATEST_URL | get version)
-# The stable channel intentionally lags behind the latest release.
-let gcs_latest = (fetch-gcs-channel "latest")
-let stable_version = (fetch-gcs-channel "stable")
+	let all_npm_versions = (http get $NPM_PACKAGE_URL | get versions | columns | semver-sort)
+	let npm_latest = (http get $NPM_LATEST_URL | get version)
+	# The stable channel intentionally lags behind the latest release.
+	let gcs_latest = (fetch-gcs-channel "latest")
+	let stable_version = (fetch-gcs-channel "stable")
 
-# Determine the newest version reported by either source.
-let latest_version = ([$npm_latest $gcs_latest] | semver-sort | last)
+	# Determine the newest version reported by either source.
+	let latest_version = ([$npm_latest $gcs_latest] | semver-sort | last)
 
-print $"Current version: ($current_version)"
-print $"npm latest:      ($npm_latest)"
-print $"GCS latest:      ($gcs_latest)"
-print $"GCS stable:      ($stable_version)"
-print $"Latest version:  ($latest_version)"
+	print $"Current version: ($current_version)"
+	print $"npm latest:      ($npm_latest)"
+	print $"GCS latest:      ($gcs_latest)"
+	print $"GCS stable:      ($stable_version)"
+	print $"Latest version:  ($latest_version)"
 
-# Find the earliest existing version to determine the backfill range.
-# Only backfill versions >= the earliest version we already track.
-let earliest = ($existing_versions | get 0?)
+	# Find the earliest existing version to determine the backfill range.
+	# Only backfill versions >= the earliest version we already track.
+	let earliest = ($existing_versions | get 0?)
 
-let missing_versions = (
-	$all_npm_versions
-	| where {|v| $v not-in $existing_versions and ($earliest == null or (semver-gte $v $earliest))}
-)
+	let missing_versions = (
+		$all_npm_versions
+		| where {|v| $v not-in $existing_versions and ($earliest == null or (semver-gte $v $earliest))}
+	)
 
-match ($missing_versions | is-empty) {
-	true => { print "All versions are up to date!" }
-	false => {
-		print $"Found ($missing_versions | length) missing version\(s\): ($missing_versions | str join ', ')"
+	match ($missing_versions | is-empty) {
+		true => { print "All versions are up to date!" }
+		false => {
+			print $"Found ($missing_versions | length) missing version\(s\): ($missing_versions | str join ', ')"
 
-		$missing_versions | each {|version|
-			print $"Processing ($version)..."
-			match (process-version $version) {
-				true => { print $"  Added ($version)" }
-				false => {}
-			}
-		} | ignore
+			$missing_versions | each {|version|
+				print $"Processing ($version)..."
+				match (process-version $version) {
+					true => { print $"  Added ($version)" }
+					false => {}
+				}
+			} | ignore
+		}
 	}
+
+	# Ensure the stable version is tracked before recording the channel marker.
+	# The marker must never point at a version file that does not exist, or the
+	# flake's `stable` alias would fail to evaluate — on failure keep the previous
+	# marker (still valid, stable naturally lags) and retry on the next run.
+	let stable_path = ($script_dir | path join "versions" $"($stable_version).json")
+	match ($stable_path | path exists) {
+		true => {}
+		false => {
+			print $"Processing stable ($stable_version)..."
+			process-version $stable_version | ignore
+		}
+	}
+	match ($stable_path | path exists) {
+		true => {
+			# The flake reads this marker to expose the `stable` package alias.
+			# The `latest` channel needs no marker: the flake derives it from
+			# the highest version file name.
+			$"($stable_version)\n" | save -f ($script_dir | path join "stable")
+			print $"Marked stable -> ($stable_version)"
+		}
+		false => {
+			print -e $"Keeping previous stable marker: failed to process stable ($stable_version)"
+		}
+	}
+
+	# Format with oxfmt
+	print "Formatting with oxfmt..."
+	cd $script_dir
+	oxfmt --config ($script_dir | path join ".oxfmtrc.jsonc") versions/*.json | ignore
+	print "Done!"
+
+	# Print the latest version as the final line for CI consumption
+	print $latest_version
 }
-
-# Ensure the stable version is tracked before recording the channel marker.
-# The marker must never point at a version file that does not exist, or the
-# flake's `stable` alias would fail to evaluate — on failure keep the previous
-# marker (still valid, stable naturally lags) and retry on the next run.
-let stable_path = ($script_dir | path join "versions" $"($stable_version).json")
-match ($stable_path | path exists) {
-	true => {}
-	false => {
-		print $"Processing stable ($stable_version)..."
-		process-version $stable_version | ignore
-	}
-}
-match ($stable_path | path exists) {
-	true => {
-		# The flake reads this marker to expose the `stable` package alias.
-		# The `latest` channel needs no marker: the flake derives it from
-		# the highest version file name.
-		$"($stable_version)\n" | save -f ($script_dir | path join "stable")
-		print $"Marked stable -> ($stable_version)"
-	}
-	false => {
-		print -e $"Keeping previous stable marker: failed to process stable ($stable_version)"
-	}
-}
-
-# Format with oxfmt
-print "Formatting with oxfmt..."
-cd $script_dir
-oxfmt --config ($script_dir | path join ".oxfmtrc.jsonc") versions/*.json | ignore
-print "Done!"
-
-# Print the latest version as the final line for CI consumption
-print $latest_version
