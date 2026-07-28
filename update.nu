@@ -36,18 +36,22 @@ def semver-sort []: list<string> -> list<string> {
 # sorts the pair and tests whether `a` comes out on top. Both sides are
 # normalised through `into semver | into string` so a non-canonical input
 # string cannot break the equality test.
-def semver-gte [a: string, b: string] {
+def semver-gte [
+	a: string # the version being tested
+	b: string # the baseline it must reach
+]: nothing -> bool {
 	let last_sorted = ([$b $a] | each { into semver } | sort | last | into string)
 	$last_sorted == ($a | into semver | into string)
 }
 
 # Fetch a version string from a GCS distribution channel (`latest` or `stable`).
-def fetch-gcs-channel [channel: string] {
+def fetch-gcs-channel [channel: string]: nothing -> string {
 	http get $"($BASE_URL)/($channel)" | str trim
 }
 
-# Get all existing versions from the versions directory.
-def get-existing-versions [] {
+# Get all existing versions from the versions directory, ascending.
+# `latest` is null when no version file is tracked yet.
+def get-existing-versions []: nothing -> record<versions: list<string>, latest: any> {
 	let names = (
 		glob ($script_dir | path join "versions" "*.json")
 		| each { path parse | get stem }
@@ -62,7 +66,10 @@ def get-existing-versions [] {
 }
 
 # Write version sources to the versions directory.
-def write-version-sources [version: string, hashes: record] {
+def write-version-sources [
+	version: string
+	hashes: record # SRI hash per Nix platform, keyed as in `$platforms`
+]: nothing -> nothing {
 	let versioned_path = ($script_dir | path join "versions" $"($version).json")
 
 	let platforms_data = (
@@ -82,7 +89,7 @@ def write-version-sources [version: string, hashes: record] {
 
 # Fetch manifest, compute SRI hashes, and write the version file.
 # Returns true if the version was written, false if the manifest was unavailable.
-def process-version [version: string] {
+def process-version [version: string]: nothing -> bool {
 	let manifest = (try { http get $"($BASE_URL)/($version)/manifest.json" } catch {|err|
 		print -e $"  Skipping ($version): ($err.msg)"
 		null
@@ -120,7 +127,7 @@ def process-version [version: string] {
 # Backfill every version file missing from the tracked range, refresh the
 # `stable` channel marker, and print the newest known version as the final line
 # for CI consumption.
-def main [] {
+def main []: nothing -> nothing {
 	let existing = (get-existing-versions)
 	let existing_versions = $existing.versions
 	let current_version = $existing.latest
