@@ -62,7 +62,7 @@
           latestSourcesFile = ./versions/${latestVersion + ".json"};
           stableSourcesFile = ./versions/${stableVersion + ".json"};
 
-          fhsPackages = nixpkgs.lib.optionalAttrs pkgs.stdenv.isLinux {
+          fhsPackages = nixpkgs.lib.optionalAttrs pkgs.stdenv.hostPlatform.isLinux {
             claude-fhs = mkClaudeFhs (mkClaude latestSourcesFile);
             claude-minimal-fhs = mkClaudeFhs (mkClaudeMinimal latestSourcesFile);
             stable-fhs = mkClaudeFhs (mkClaude stableSourcesFile);
@@ -87,7 +87,7 @@
           claude-code = self.packages.${prev.stdenv.hostPlatform.system}.claude;
           claude-code-minimal = self.packages.${prev.stdenv.hostPlatform.system}.claude-minimal;
         }
-        // nixpkgs.lib.optionalAttrs prev.stdenv.isLinux {
+        // nixpkgs.lib.optionalAttrs prev.stdenv.hostPlatform.isLinux {
           claude-code-fhs = self.packages.${prev.stdenv.hostPlatform.system}.claude-fhs;
           claude-code-minimal-fhs = self.packages.${prev.stdenv.hostPlatform.system}.claude-minimal-fhs;
         };
