@@ -1,5 +1,5 @@
 name: Setup Nix
-description: Install Nix with the Numtide binary cache configured
+description: Install Nix with persistent caches through the shared setup action
 runs:
   using: composite
   steps:
